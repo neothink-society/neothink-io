@@ -5,27 +5,27 @@ import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
   title: "About | Neothink+",
-  description: "Learn about Neothink+, the administrative gateway to the Neothink Society and the four paths to prosperity, happiness, longevity, and achievement.",
+  description: "After 50+ years as an underground success network, Neothink is now public. Learn about our mission to create value creators, integrated thinkers, and self-leaders.",
 }
 
 const founders = [
   {
     name: "Dr. Frank R. Wallace",
     role: "Founder of Neo-Tech (1932-2006)",
-    description: "Philosopher, author, and founder of the Neo-Tech framework. Former research chemist who dedicated his life to developing systematic approaches to integrated honesty and value creation.",
+    description: "Former Senior Research Chemist at DuPont who resigned in 1972 to dedicate his life to curing the \"disease of irrationality.\" Founded I & O Publishing in 1968 and developed the Neo-Tech framework for integrated honesty and value creation.",
     years: "1968-2006",
   },
   {
     name: "Mark Hamilton",
     role: "Founder of Neothink Society",
-    description: "Author of over 30 works on integrated thinking and human potential. Has dedicated 40+ years to making Neothink principles accessible worldwide through the Neothink Society.",
+    description: "Author of over 30 works including the 1,100-page Superpuzzle. Identified the Division of Essence and has spent 40+ years developing systems that transform minds to operate at genius level. Made the historic decision to go public in 2024.",
     years: "1986-Present",
     link: "https://markhamilton.co",
   },
   {
     name: "Wallace Hamilton",
     role: "Director of Operations",
-    description: "Third-generation thought leader focused on applying integrated thinking to modern technology and organizational development.",
+    description: "Third-generation leader applying integrated thinking to modern technology and the digital infrastructure powering Ascension, Neothink University, and Immortalis.",
     years: "2007-Present",
   },
 ]
@@ -56,8 +56,8 @@ export default function AboutPage() {
                 Neothink+
               </h1>
               <p className="text-lg leading-relaxed text-white/80 sm:text-xl lg:text-2xl">
-                The administrative gateway to the extraordinary values provided by Mark Hamilton,
-                Wallace Hamilton, the Hamilton Family, and the Neothink Society.
+                After 50+ years operating as an underground success network, we are passing the keys
+                to the kingdom to a new generation of value creators, integrated thinkers, and self-leaders.
               </p>
             </div>
           </div>
@@ -70,16 +70,17 @@ export default function AboutPage() {
               <h2 className="mb-8 font-serif text-3xl font-bold text-white sm:text-4xl">Our Mission</h2>
               <div className="space-y-6 text-lg leading-relaxed text-white/80">
                 <p>
-                  Neothink+ serves as the central hub connecting members, mentees, mentors, and masters
-                  to the secrets, visions, and powers offered by Neothink. We bring the integrated thinking
-                  of Mark Hamilton and the Neothink Society directly to you.
+                  We are the architects of a self-evolutionary movement focused on preserving the ultimate
+                  value in the universe: human consciousness. Our mission is to transform individuals from
+                  the "following mode" into self-leaders who create value, think integratively, and control
+                  their own destiny.
                 </p>
                 <p>
-                  Through four distinct paths—<span className="font-bold text-orange-400">Ascenders</span>,
-                  <span className="font-bold text-amber-400"> Neothinkers</span>,
-                  <span className="font-bold text-red-400"> Immortals</span>, and
-                  <span className="font-bold text-yellow-400"> Superachievers</span>—we guide individuals
-                  toward prosperity, happiness, longevity, and ultimate achievement.
+                  Through four integrated platforms—<span className="font-bold text-orange-400">Ascension</span> for business,
+                  <span className="font-bold text-amber-400"> Neothink University</span> for the mind,
+                  <span className="font-bold text-red-400"> Immortalis</span> for longevity, and the
+                  <span className="font-bold text-yellow-400"> Prime Literature</span> for foundational knowledge—we
+                  provide the education, tools, and community to help you prosper happily forever.
                 </p>
               </div>
             </div>
@@ -164,10 +165,10 @@ export default function AboutPage() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="mb-6 font-serif text-3xl font-bold text-white sm:text-4xl">
-                Begin Your Journey
+                Advance Your Path
               </h2>
               <p className="mb-8 text-lg text-white/80">
-                Discover which path aligns with your goals and start your transformation today.
+                Discover which path aligns with your goals and deepen your practice.
               </p>
               <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Link

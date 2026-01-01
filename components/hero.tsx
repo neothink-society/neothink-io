@@ -62,10 +62,11 @@ export function Hero() {
           </h1>
 
           <p className="mx-auto mb-10 max-w-2xl text-pretty text-lg leading-relaxed text-white/90 sm:mb-12 sm:text-xl lg:text-2xl">
-            We are members, mentees, mentors, and masters of the greatest secrets, visions, powers, and insights offered by{" "}
-            <span className="font-bold text-white">Neothink</span>. Bringing the extraordinary values of{" "}
-            <span className="font-bold text-white">Mark Hamilton</span> and the{" "}
-            <span className="font-bold text-white">Neothink Society</span> directly to you.
+            After 50+ years operating as an underground success network, we are now passing the{" "}
+            <span className="font-bold text-white">keys to the kingdom</span> to a new generation of{" "}
+            <span className="font-bold text-white">value creators</span>,{" "}
+            <span className="font-bold text-white">integrated thinkers</span>, and{" "}
+            <span className="font-bold text-white">self-leaders</span>.
           </p>
 
           <p className="mx-auto mb-10 text-xl font-bold text-primary sm:mb-12 sm:text-2xl">

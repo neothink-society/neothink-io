@@ -75,7 +75,7 @@ const memberTypes = [
     focus: "Prosperity",
     tagline: "Value Creator",
     description:
-      "Master the division of essence and unlock open-ended wealth creation. Generate value and income without limits through purposeful action.",
+      "Access the Ascension platform and proven business systems. Build and scale profitable ventures through the division of essence and mini-company frameworks.",
     cta: "Unlock Prosperity",
     color: "text-orange-400",
     bgGradient: "bg-gradient-to-br from-orange-950/50 via-zinc-900 to-black",
@@ -94,7 +94,7 @@ const memberTypes = [
     focus: "Happiness",
     tagline: "Integrated Thinker",
     description:
-      "Harness your Friday-Night Essence and the power of integrated thinking. Experience the deep exhilaration that comes from authentic value creation.",
+      "Develop Billionaire Consciousness through Neothink University. Master integrated thinking to see through illusions and solve complex life problems.",
     cta: "Experience Happiness",
     color: "text-amber-400",
     bgGradient: "bg-gradient-to-br from-amber-950/50 via-zinc-900 to-black",
@@ -113,7 +113,7 @@ const memberTypes = [
     focus: "Longevity",
     tagline: "Self-Leader",
     description:
-      "Lead the mission to defeat aging and extend human life. Shape the psychological and political conditions for biological immortality.",
+      "Join the Immortalis movement and Project Life. Participate in cutting-edge longevity research and the mission to make aging optional.",
     cta: "Pursue Longevity",
     color: "text-red-400",
     bgGradient: "bg-gradient-to-br from-red-950/50 via-zinc-900 to-black",
@@ -132,7 +132,7 @@ const memberTypes = [
     focus: "Intelligence",
     tagline: "Neothink Mentality",
     description:
-      "Command the Neothink mentality—the next evolution of human consciousness. Build integrated puzzles to predict and shape the future.",
+      "Operate at the highest level with Ten-Second Miracles and the full Neothink toolkit. Build empires through integrated puzzles that shape the future.",
     cta: "Master Intelligence",
     color: "text-yellow-400",
     bgGradient: "bg-gradient-to-br from-yellow-950/50 via-zinc-900 to-black",

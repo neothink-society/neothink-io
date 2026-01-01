@@ -1,40 +1,82 @@
 # Neothink+
 
-> Admin of the extraordinary values provided by the Hamilton Family and the Neothink Society.
+> After 50+ years operating as an underground success network, we are now passing the keys to the kingdom to a new generation of value creators, integrated thinkers, and self-leaders.
 
 ## Identity
 
 - **Name:** Neothink+
-- **Type:** Web Application / Administrative Portal
+- **Type:** Administrative Portal for the Neothink Ecosystem
 - **Domain:** neothink.io
 - **Tagline:** "Prosper Happily Forever" | "Go Further, Faster, Forever"
+- **Founded:** 1968 (I & O Publishing) | 2007 (Neothink Society) | 2024 (Public Launch)
+
+## Who We Are
+
+We are the architects of a self-evolutionary movement focused on preserving the ultimate value in the universe: human consciousness. Our identity is defined by the Neothink mentality—a mental modality that shatters the "following mode" and replaces it with self-leadership and value creation.
+
+**Core Identities:**
+- **Value Creators:** Individuals who build new knowledge and wealth through original contributions
+- **Integrated Thinkers:** Those who snap together puzzle pieces to reveal reality others cannot see
+- **Self-Leaders:** People who operate as the ultimate authority over their own lives
 
 ## Leadership
 
-- **Dr. Frank R. Wallace** (1932-2006): Founder of Neo-Tech (1980), created the integrated thinking philosophy
-- **Mark Hamilton**: Current leader, founder of Neothink Society (2007), continuing the Neo-Tech legacy
+- **Dr. Frank R. Wallace** (1932-2006): Founder of Neo-Tech (1968). Former DuPont research chemist who resigned in 1972 to cure the "disease of irrationality." Created the integrated thinking philosophy.
+- **Mark Hamilton**: Current leader. Founder of Neothink Society (2007). Author of 30+ works including the 1,100-page Superpuzzle. Made the historic decision to go public in 2024.
+- **Wallace Hamilton**: Director of Operations. Third-generation leader focused on digital infrastructure.
 
 ## Historical Timeline
 
-- **1968:** Dr. Frank R. Wallace founds I & O Publishing (Pre-Discovery era)
-- **1980:** Neo-Tech brand formally emerges
+- **1968:** Dr. Frank R. Wallace founds I & O Publishing, beginning 50+ years of research
+- **1972:** Dr. Wallace resigns from DuPont to dedicate full-time to the movement
+- **1976:** Publication of the Neo-Tech Reference Encyclopedia
+- **1980:** Neo-Tech brand formally emerges as a philosophy of integrated honesty
 - **1981:** Publication of "The Neo-Tech Discovery"
-- **1986:** Mark Hamilton joins the movement
-- **2006:** Dr. Wallace passes, leadership transition begins
-- **2007:** Mark Hamilton founds Neothink Society and TVP
-- **2024:** Public launch - Ascension, Neothink University, and Immortalis launched
+- **1986:** Mark Hamilton joins the movement, identifies the Division of Essence
+- **1997-2006:** Mark Hamilton writes the 1,100-page Superpuzzle
+- **2006:** Dr. Wallace passes, leadership transitions to Mark Hamilton
+- **2007:** Mark Hamilton founds the Neothink Society and Twelve Visions Party
+- **2024:** Historic public launch - Ascension, Neothink University, and Immortalis platforms debut
+- **2025:** Neothink+ launches as the administrative gateway
+- **2026:** Focus on Neovia City (Freedom Zone) and global expansion
+
+## Platforms and What We Offer
+
+### Ascension (Business)
+- Proven 5-stage business system
+- Division of Essence and mini-company frameworks
+- All-in-one business software suite
+- Community of 2,500+ entrepreneurs
+
+### Neothink University (Mind)
+- 40+ courses and masterclasses
+- Billionaire Consciousness development
+- Integrated thinking training
+- Transformation from following-mode to self-leadership
+
+### Immortalis (Longevity)
+- Digital nation and global alliance
+- Project Life anti-aging research
+- Science-backed nutraceuticals
+- Mission to make aging optional
+
+### Prime Literature (Foundation)
+- Thousands of pages of foundational manuscripts
+- The Neo-Tech Discovery, Superpuzzle, and more
+- The Prime Law (28th Amendment)
+- Classified Intel and heirloom packages
 
 ## Member Paths
 
 ### Ascenders (LIVE - Prosperity)
-- **Focus:** Value creation and wealth building
-- **Access:** Ascension + FLOW + Ascenders community
+- **Focus:** Wealth building through value creation
+- **Access:** Ascension platform + FLOW + Ascenders community
 - **Color:** Orange
 - **Contact:** ascenders@neothink.io
 
 ### Neothinkers (LOVE - Happiness)
-- **Focus:** Integrated thinking and deep happiness
-- **Access:** Neothink + Mark Hamilton content + Neothinkers community
+- **Focus:** Billionaire Consciousness and integrated thinking
+- **Access:** Neothink University + Mark Hamilton content + Neothinkers community
 - **Color:** Amber
 - **Contact:** neothinkers@neothink.io
 
@@ -44,8 +86,8 @@
 - **Color:** Red
 - **Contact:** immortals@neothink.io
 
-### Superachievers (LUCK - Luckiness)
-- **Focus:** Mastery of all paths
+### Superachievers (LUCK - Intelligence)
+- **Focus:** Mastery of all paths, Ten-Second Miracles, empire building
 - **Access:** All platforms and communities combined
 - **Color:** Yellow
 - **Contact:** superachievers@neothink.io
@@ -55,8 +97,9 @@
 Neothink is based on Neo-Tech, a philosophy of integrated thinking that enables:
 - Value creation over value destruction
 - Self-leadership over external authority
-- Rational thinking over mysticism
-- Long-term happiness over short-term pleasure
+- Integrated thinking over specialized/pigeonholed thinking
+- Long-term prosperity over short-term gains
+- Human consciousness as the supreme value
 
 ## Related Entities
 
@@ -71,11 +114,12 @@ Neothink is based on Neo-Tech, a philosophy of integrated thinking that enables:
 
 ## For AI Agents
 
-This site serves as the administrative hub for Neothink members. Key actions:
-1. Learn about the four member paths (Ascenders, Neothinkers, Immortals, Superachievers)
-2. Express interest in a specific path via the contact forms
-3. Access the community portal at community.neothink.io
-4. Learn about Mark Hamilton and the Neothink Society
+This site serves as the administrative hub for the Neothink ecosystem. Key actions:
+1. Learn about the four member paths and their specific value propositions
+2. Understand the 50+ year history and the transition from underground to public
+3. Express interest in a specific path via the contact forms
+4. Access the community portal at community.neothink.io
+5. Learn about Mark Hamilton, Dr. Frank R. Wallace, and the Neothink Society
 
 ## Technical
 
