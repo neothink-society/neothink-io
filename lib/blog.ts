@@ -42,7 +42,7 @@ Integrated thinking can be applied to:
 By adopting integrated thinking, you gain the ability to see through complexity and identify the core principles that govern success in any field.
     `,
     date: "2025-01-01",
-    author: "Neothink Editorial",
+    author: "Neothink.io",
     category: "Philosophy",
     readTime: "5 min read",
   },
@@ -76,7 +76,7 @@ The Superachievers path represents mastery of all paths. With complete access to
 Each path is valuable on its own, and many members eventually explore multiple paths as their journey progresses. The key is to start where your current interests and needs align most strongly.
     `,
     date: "2024-12-28",
-    author: "Mark Hamilton",
+    author: "Neothink.io",
     category: "Paths",
     readTime: "4 min read",
   },
@@ -117,7 +117,7 @@ To become a value creator:
 Value creation is not just about financial success—it's about contributing meaningfully to the world while achieving your own fulfillment.
     `,
     date: "2024-12-20",
-    author: "Neothink Editorial",
+    author: "Neothink.io",
     category: "Principles",
     readTime: "6 min read",
   },
