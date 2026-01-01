@@ -5,7 +5,7 @@ import { Footer } from "@/components/footer"
 import { getAllPosts } from "@/lib/blog"
 
 export const metadata: Metadata = {
-  title: "Insights | Neothink.io",
+  title: "Insights | Neothink+",
   description: "Explore articles on integrated thinking, value creation, and the Neothink philosophy. Discover insights from Mark Hamilton and the Neothink Society.",
 }
 

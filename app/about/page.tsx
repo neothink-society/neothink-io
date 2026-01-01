@@ -4,8 +4,8 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "About | Neothink.io",
-  description: "Learn about Neothink.io, the administrative gateway to the Neothink Society, Mark Hamilton's teachings, and the four paths to prosperity, happiness, longevity, and achievement.",
+  title: "About | Neothink+",
+  description: "Learn about Neothink+, the administrative gateway to the Neothink Society and the four paths to prosperity, happiness, longevity, and achievement.",
 }
 
 const founders = [
@@ -38,7 +38,7 @@ const timeline = [
   { year: "2006", event: "Dr. Wallace passes, leadership transition to Mark Hamilton begins" },
   { year: "2007", event: "Mark Hamilton founds the Neothink Society and TVP movement" },
   { year: "2024", event: "Public launch of Ascension, Neothink University, and Immortalis platforms" },
-  { year: "2025", event: "Neothink.io launches as the administrative gateway" },
+  { year: "2025", event: "Neothink+ launches as the administrative gateway" },
 ]
 
 export default function AboutPage() {
@@ -53,7 +53,7 @@ export default function AboutPage() {
             <div className="mx-auto max-w-3xl text-center">
               <p className="mb-4 text-base font-bold uppercase tracking-wider text-primary sm:text-lg">About</p>
               <h1 className="mb-6 font-serif text-4xl font-bold text-white sm:text-5xl lg:text-6xl">
-                Neothink.io
+                Neothink+
               </h1>
               <p className="text-lg leading-relaxed text-white/80 sm:text-xl lg:text-2xl">
                 The administrative gateway to the extraordinary values provided by Mark Hamilton,
@@ -70,7 +70,7 @@ export default function AboutPage() {
               <h2 className="mb-8 font-serif text-3xl font-bold text-white sm:text-4xl">Our Mission</h2>
               <div className="space-y-6 text-lg leading-relaxed text-white/80">
                 <p>
-                  Neothink.io serves as the central hub connecting members, mentees, mentors, and masters
+                  Neothink+ serves as the central hub connecting members, mentees, mentors, and masters
                   to the secrets, visions, and powers offered by Neothink. We bring the integrated thinking
                   of Mark Hamilton and the Neothink Society directly to you.
                 </p>

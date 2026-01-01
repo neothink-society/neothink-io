@@ -1,6 +1,6 @@
-# Neothink.io Landing Page
+# Neothink+ Landing Page
 
-Admin of the extraordinary values provided by Mark Hamilton, Wallace Hamilton, the Hamilton Family, and the Neothink Society.
+Admin of the extraordinary values provided by the Hamilton Family and the Neothink Society.
 
 ## Tech Stack
 

@@ -55,7 +55,7 @@ export function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <span className="font-serif text-xl font-bold italic text-primary sm:text-2xl">
-            Neothink.io
+            Neothink+
           </span>
         </Link>
 

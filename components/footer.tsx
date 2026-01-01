@@ -34,7 +34,7 @@ export function Footer({ onPathClick }: FooterProps) {
           {/* Brand column */}
           <div className="lg:col-span-2">
             <Link href="/" className="mb-4 inline-block font-serif text-2xl italic text-primary sm:mb-5 sm:text-3xl lg:text-4xl">
-              Neothink.io
+              Neothink+
             </Link>
             <p className="mb-6 max-w-md text-pretty text-base leading-relaxed text-white/80 sm:mb-8 sm:text-lg">
               The administrative gateway to the values provided by Mark Hamilton, Wallace Hamilton, and the Neothink Society.

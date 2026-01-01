@@ -1,10 +1,10 @@
-# Neothink.io
+# Neothink+
 
-> Admin of the extraordinary values provided by Mark Hamilton, Wallace Hamilton, the Hamilton Family, and the Neothink Society.
+> Admin of the extraordinary values provided by the Hamilton Family and the Neothink Society.
 
 ## Identity
 
-- **Name:** Neothink.io
+- **Name:** Neothink+
 - **Type:** Web Application / Administrative Portal
 - **Domain:** neothink.io
 - **Tagline:** "Prosper Happily Forever" | "Go Further, Faster, Forever"

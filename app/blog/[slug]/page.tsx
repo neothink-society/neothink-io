@@ -15,12 +15,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!post) {
     return {
-      title: "Post Not Found | Neothink.io",
+      title: "Post Not Found | Neothink+",
     }
   }
 
   return {
-    title: `${post.title} | Neothink.io`,
+    title: `${post.title} | Neothink+`,
     description: post.excerpt,
     openGraph: {
       title: post.title,

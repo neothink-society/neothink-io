@@ -50,7 +50,7 @@ export async function submitContactForm(formData: FormData): Promise<FormResult>
 
   try {
     await resend.emails.send({
-      from: "Neothink.io <noreply@neothink.io>",
+      from: "Neothink+ <noreply@neothink.io>",
       to: process.env.ADMIN_EMAIL || "admin@neothink.io",
       replyTo: email,
       subject: `New Contact Form Submission from ${name}`,
@@ -115,7 +115,7 @@ export async function submitPathInterest(formData: FormData): Promise<FormResult
 
   try {
     await resend.emails.send({
-      from: "Neothink.io <noreply@neothink.io>",
+      from: "Neothink+ <noreply@neothink.io>",
       to: recipientEmail,
       replyTo: email,
       subject: `New ${path} Path Interest from ${name}`,
