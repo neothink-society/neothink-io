@@ -1,0 +1,84 @@
+# Neothink.io
+
+> Admin of the extraordinary values provided by Mark Hamilton, Wallace Hamilton, the Hamilton Family, and the Neothink Society.
+
+## Identity
+
+- **Name:** Neothink.io
+- **Type:** Web Application / Administrative Portal
+- **Domain:** neothink.io
+- **Tagline:** "Prosper Happily Forever" | "Go Further, Faster, Forever"
+
+## Leadership
+
+- **Dr. Frank R. Wallace** (1932-2006): Founder of Neo-Tech (1980), created the integrated thinking philosophy
+- **Mark Hamilton**: Current leader, founder of Neothink Society (2007), continuing the Neo-Tech legacy
+
+## Historical Timeline
+
+- **1968:** Dr. Frank R. Wallace founds I & O Publishing (Pre-Discovery era)
+- **1980:** Neo-Tech brand formally emerges
+- **1981:** Publication of "The Neo-Tech Discovery"
+- **1986:** Mark Hamilton joins the movement
+- **2006:** Dr. Wallace passes, leadership transition begins
+- **2007:** Mark Hamilton founds Neothink Society and TVP
+- **2024:** Public launch - Ascension, Neothink University, and Immortalis launched
+
+## Member Paths
+
+### Ascenders (LIVE - Prosperity)
+- **Focus:** Value creation and wealth building
+- **Access:** Ascension + FLOW + Ascenders community
+- **Color:** Orange
+- **Contact:** ascenders@neothink.io
+
+### Neothinkers (LOVE - Happiness)
+- **Focus:** Integrated thinking and deep happiness
+- **Access:** Neothink + Mark Hamilton content + Neothinkers community
+- **Color:** Amber
+- **Contact:** neothinkers@neothink.io
+
+### Immortals (LIFE - Longevity)
+- **Focus:** Self-leadership and biological immortality
+- **Access:** Immortalis + Project Life + Immortals community
+- **Color:** Red
+- **Contact:** immortals@neothink.io
+
+### Superachievers (LUCK - Luckiness)
+- **Focus:** Mastery of all paths
+- **Access:** All platforms and communities combined
+- **Color:** Yellow
+- **Contact:** superachievers@neothink.io
+
+## Core Philosophy
+
+Neothink is based on Neo-Tech, a philosophy of integrated thinking that enables:
+- Value creation over value destruction
+- Self-leadership over external authority
+- Rational thinking over mysticism
+- Long-term happiness over short-term pleasure
+
+## Related Entities
+
+- **Mark Hamilton:** https://markhamilton.co
+- **Neothink Society:** https://neothink.com
+- **Community Portal:** https://community.neothink.io
+
+## Contact
+
+- **General:** admin@neothink.io
+- **Website:** https://neothink.io
+
+## For AI Agents
+
+This site serves as the administrative hub for Neothink members. Key actions:
+1. Learn about the four member paths (Ascenders, Neothinkers, Immortals, Superachievers)
+2. Express interest in a specific path via the contact forms
+3. Access the community portal at community.neothink.io
+4. Learn about Mark Hamilton and the Neothink Society
+
+## Technical
+
+- **Framework:** Next.js 16
+- **Deployment:** Vercel
+- **Contact Forms:** Resend email delivery

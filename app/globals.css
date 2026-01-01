@@ -1,0 +1,303 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Neothink Design System - Secret Society Black & Gold Theme */
+
+  /* Gold - Premium accent color */
+  --gold: #ffd700;
+  --gold-light: #ffed4e;
+  --gold-gold-dark: #d4af37;
+  --gold-glow: rgba(255, 215, 0, 0.3);
+
+  /* Design System Spacing Tokens (8px base with 4px half-step) */
+  --space-1: 0.25rem; /* 4px */
+  --space-2: 0.5rem; /* 8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem; /* 16px */
+  --space-5: 1.25rem; /* 20px */
+  --space-6: 1.5rem; /* 24px */
+  --space-8: 2rem; /* 32px */
+  --space-10: 2.5rem; /* 40px */
+  --space-12: 3rem; /* 48px */
+  --space-16: 4rem; /* 64px */
+  --space-24: 6rem; /* 96px */
+
+  /* Typography Scale (Major Third 1.25 ratio) */
+  --text-xs: 0.75rem; /* 12px */
+  --text-sm: 0.875rem; /* 14px */
+  --text-base: 1rem; /* 16px */
+  --text-lg: 1.125rem; /* 18px - body text for baby boomers */
+  --text-xl: 1.25rem; /* 20px */
+  --text-2xl: 1.5rem; /* 24px */
+  --text-3xl: 1.875rem; /* 30px */
+  --text-4xl: 2.25rem; /* 36px */
+  --text-5xl: 3rem; /* 48px */
+  --text-6xl: 3.75rem; /* 60px */
+
+  /* Line Heights */
+  --leading-none: 1;
+  --leading-tight: 1.2;
+  --leading-snug: 1.375;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 1.75;
+
+  /* Max Line Length for readability (45-90 chars, target 66) */
+  --max-prose: 66ch;
+
+  /* Force dark theme as primary - secret society aesthetic */
+  /* Pure black foundation with gold accents */
+  --background: 0 0% 0%;
+  --foreground: 0 0% 100%;
+  --card: 0 0% 4%;
+  --card-foreground: 0 0% 100%;
+  --popover: 0 0% 4%;
+  --popover-foreground: 0 0% 100%;
+  /* Gold primary - #FFD700 in HSL */
+  --primary: 51 100% 50%;
+  --primary-foreground: 0 0% 0%;
+  --secondary: 0 0% 8%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 0 0% 8%;
+  /* Improved muted foreground contrast for baby boomers - 80% instead of 67% */
+  --muted-foreground: 0 0% 80%;
+  --accent: 0 0% 10%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 0 0% 20%;
+  --input: 0 0% 20%;
+  --ring: 51 100% 50%;
+
+  /* Path colors - kept vibrant for differentiation */
+  --chart-1: 25 95% 53%; /* Orange for Ascenders/Ascension */
+  --chart-2: 45 93% 47%; /* Amber for Neothinkers/Neothink */
+  --chart-3: 0 84% 60%; /* Red for Immortals/Immortalis */
+  --chart-4: 48 96% 53%; /* Yellow for Superachievers */
+  --chart-5: 0 0% 100%;
+
+  /* Access platform colors */
+  --flow: 217 91% 60%; /* Blue for FLOW */
+  --mark-hamilton: 142 71% 45%; /* Green for Mark Hamilton */
+  --project-life: 271 81% 56%; /* Purple for Project Life */
+  --radius: 0.5rem; /* 8px base radius */
+
+  /* Sidebar */
+  --sidebar: 0 0% 4%;
+  --sidebar-foreground: 0 0% 96%;
+  --sidebar-primary: 51 100% 50%;
+  --sidebar-primary-foreground: 0 0% 0%;
+  --sidebar-accent: 0 0% 10%;
+  --sidebar-accent-foreground: 0 0% 100%;
+  --sidebar-border: 0 0% 15%;
+  --sidebar-ring: 51 100% 50%;
+
+  /* Custom easing curves */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-in-out-circ: cubic-bezier(0.85, 0, 0.15, 1);
+
+  /* Animation timing */
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 400ms;
+
+  /* Letter spacing */
+  --tracking-tighter: -0.04em;
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.025em;
+  --tracking-wider: 0.05em;
+  --tracking-widest: 0.1em;
+}
+
+/* Light mode override */
+.light {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 4%;
+  --card: 0 0% 98%;
+  --card-foreground: 0 0% 4%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 4%;
+  --primary: 51 100% 45%;
+  --primary-foreground: 0 0% 0%;
+  --secondary: 0 0% 96%;
+  --secondary-foreground: 0 0% 9%;
+  --muted: 0 0% 96%;
+  /* Better muted foreground for light mode */
+  --muted-foreground: 0 0% 35%;
+  --accent: 0 0% 96%;
+  --accent-foreground: 0 0% 9%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 0 0% 85%;
+  --input: 0 0% 85%;
+  --ring: 51 100% 45%;
+}
+
+.dark {
+  /* Dark mode - Full secret society aesthetic */
+  --background: 0 0% 0%;
+  --foreground: 0 0% 100%;
+  --card: 0 0% 4%;
+  --card-foreground: 0 0% 100%;
+  --popover: 0 0% 4%;
+  --popover-foreground: 0 0% 100%;
+  --primary: 51 100% 50%;
+  --primary-foreground: 0 0% 0%;
+  --secondary: 0 0% 8%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 0 0% 8%;
+  /* Improved contrast for dark mode */
+  --muted-foreground: 0 0% 80%;
+  --accent: 0 0% 10%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 0 0% 20%;
+  --input: 0 0% 20%;
+  --ring: 51 100% 50%;
+
+  /* Path colors adjusted for dark mode */
+  --chart-1: 25 95% 55%;
+  --chart-2: 45 93% 50%;
+  --chart-3: 0 72% 55%;
+  --chart-4: 48 96% 55%;
+  --chart-5: 0 0% 100%;
+
+  /* Access platform colors (dark mode) */
+  --flow: 217 91% 65%;
+  --mark-hamilton: 142 71% 50%;
+  --project-life: 271 81% 60%;
+}
+
+@theme inline {
+  --font-sans: var(--font-sans), "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: var(--font-serif), "Baskervville", Georgia, serif;
+  --font-mono: var(--font-mono), "Courier Prime", "Courier New", monospace;
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-chart-1: hsl(var(--chart-1));
+  --color-chart-2: hsl(var(--chart-2));
+  --color-chart-3: hsl(var(--chart-3));
+  --color-chart-4: hsl(var(--chart-4));
+  --color-chart-5: hsl(var(--chart-5));
+  /* Updated radius tokens */
+  --radius-sm: 0.25rem; /* 4px */
+  --radius-md: 0.5rem; /* 8px */
+  --radius-lg: 0.75rem; /* 12px */
+  --radius-xl: 1rem; /* 16px */
+  --radius-2xl: 1.5rem; /* 24px */
+  --color-sidebar: hsl(var(--sidebar));
+  --color-sidebar-foreground: hsl(var(--sidebar-foreground));
+  --color-sidebar-primary: hsl(var(--sidebar-primary));
+  --color-sidebar-primary-foreground: hsl(var(--sidebar-primary-foreground));
+  --color-sidebar-accent: hsl(var(--sidebar-accent));
+  --color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
+  --color-sidebar-border: hsl(var(--sidebar-border));
+  --color-sidebar-ring: hsl(var(--sidebar-ring));
+  /* Add gold color utilities */
+  --color-gold: #ffd700;
+  --color-gold-light: #ffed4e;
+  --color-gold-dark: #d4af37;
+
+  /* Access platform color utilities */
+  --color-flow: hsl(var(--flow));
+  --color-mark-hamilton: hsl(var(--mark-hamilton));
+  --color-project-life: hsl(var(--project-life));
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    /* Base font size 16px with 18px for reading comfort */
+    font-size: var(--text-lg); /* 18px for baby boomers */
+    line-height: var(--leading-relaxed); /* 1.625 */
+    font-feature-settings: "kern" 1, "liga" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  html {
+    color-scheme: dark light;
+    scroll-behavior: smooth;
+    /* 16px base for rem calculations */
+    font-size: 16px;
+  }
+  /* Skip to content link for accessibility */
+  .skip-to-content {
+    @apply sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-primary focus:text-primary-foreground focus:rounded-lg focus:font-bold;
+  }
+  /* Enhanced focus states with gold ring */
+  *:focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
+  }
+  /* Serif font for headings with semibold weight for better visibility */
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-serif), "Baskervville", Georgia, serif;
+    font-weight: 600; /* Changed from 400 to 600 for bolder headings */
+    line-height: var(--leading-tight); /* 1.2 */
+    letter-spacing: var(--tracking-tight);
+  }
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    line-height: var(--leading-snug); /* 1.375 */
+    letter-spacing: var(--tracking-tight);
+  }
+  /* Heading sizes using Major Third scale (1.25 ratio) */
+  h1 {
+    font-size: clamp(var(--text-4xl), 5vw, var(--text-6xl));
+  }
+  h2 {
+    font-size: clamp(var(--text-3xl), 4vw, var(--text-5xl));
+  }
+  h3 {
+    font-size: clamp(var(--text-2xl), 3vw, var(--text-4xl));
+  }
+  h4 {
+    font-size: var(--text-xl);
+  }
+  /* Prose max-width for optimal line length */
+  .prose-width {
+    max-width: var(--max-prose);
+  }
+
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
