@@ -30,12 +30,13 @@ export function WhoWeAre() {
           </h2>
 
           <p className="mx-auto mb-6 max-w-3xl text-pretty text-lg leading-relaxed text-white/90 sm:mb-8 sm:text-xl lg:text-2xl">
-            We are the <span className="font-bold text-white">value creators</span>,{" "}
-            <span className="font-bold text-white">integrated thinkers</span>, and{" "}
-            <span className="font-bold text-white">self-leaders</span> building extraordinary tools and technology. Our
-            mission: help you achieve <span className="font-bold text-white">limitless prosperity</span>,{" "}
-            <span className="font-bold text-white">eternal happiness</span>, and{" "}
-            <span className="font-bold text-white">biological immortality</span>.
+            Whether you are a <span className="font-bold text-white">mentee</span> exploring these ideas,{" "}
+            a <span className="font-bold text-white">member</span> deepening your practice,{" "}
+            a <span className="font-bold text-white">mentor</span> guiding others, or{" "}
+            a <span className="font-bold text-white">master</span> of integrated thinking—we support your path to{" "}
+            <span className="font-bold text-white">limitless prosperity</span>,{" "}
+            <span className="font-bold text-white">deep happiness</span>, and{" "}
+            <span className="font-bold text-white">extended life</span>.
           </p>
 
           <div className="mx-auto mb-10 flex flex-wrap justify-center gap-3 sm:mb-12 sm:gap-4">

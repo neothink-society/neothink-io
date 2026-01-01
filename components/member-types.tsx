@@ -75,8 +75,8 @@ const memberTypes = [
     focus: "Prosperity",
     tagline: "Value Creator",
     description:
-      "Transform your career from stagnant labor into open-ended wealth building. Apply the division of essence to generate income without limits.",
-    cta: "Begin Your Ascent",
+      "Master the division of essence and unlock open-ended wealth creation. Generate value and income without limits through purposeful action.",
+    cta: "Unlock Prosperity",
     color: "text-orange-400",
     bgGradient: "bg-gradient-to-br from-orange-950/50 via-zinc-900 to-black",
     borderColor: "border-l-4 border-l-orange-500 border-y border-r border-zinc-700",
@@ -94,8 +94,8 @@ const memberTypes = [
     focus: "Happiness",
     tagline: "Integrated Thinker",
     description:
-      "Discover your Friday-Night Essence and shift from value production to value creation. Experience the exhilaration that comes from integrated thinking.",
-    cta: "Discover Your Essence",
+      "Harness your Friday-Night Essence and the power of integrated thinking. Experience the deep exhilaration that comes from authentic value creation.",
+    cta: "Experience Happiness",
     color: "text-amber-400",
     bgGradient: "bg-gradient-to-br from-amber-950/50 via-zinc-900 to-black",
     borderColor: "border-l-4 border-l-amber-500 border-y border-r border-zinc-700",
@@ -113,8 +113,8 @@ const memberTypes = [
     focus: "Longevity",
     tagline: "Self-Leader",
     description:
-      "Take full control of your life and join the mission to defeat aging. Create the psychological and political conditions for biological immortality.",
-    cta: "Join the Mission",
+      "Lead the mission to defeat aging and extend human life. Shape the psychological and political conditions for biological immortality.",
+    cta: "Pursue Longevity",
     color: "text-red-400",
     bgGradient: "bg-gradient-to-br from-red-950/50 via-zinc-900 to-black",
     borderColor: "border-l-4 border-l-red-500 border-y border-r border-zinc-700",
@@ -132,8 +132,8 @@ const memberTypes = [
     focus: "Intelligence",
     tagline: "Neothink Mentality",
     description:
-      "Operate in the Neothink mentality—the next evolution of the human mind. Build integrated puzzles that allow you to predict and create the future.",
-    cta: "Evolve Your Mind",
+      "Command the Neothink mentality—the next evolution of human consciousness. Build integrated puzzles to predict and shape the future.",
+    cta: "Master Intelligence",
     color: "text-yellow-400",
     bgGradient: "bg-gradient-to-br from-yellow-950/50 via-zinc-900 to-black",
     borderColor: "border-l-4 border-l-yellow-500 border-y border-r border-zinc-700",
@@ -162,7 +162,7 @@ export function MemberTypes({ selectedPath, setSelectedPath }: MemberTypesProps)
               Four Paths to <span className="text-primary">Transformation</span>
             </h2>
             <p className="text-pretty text-lg text-white/80 sm:text-xl lg:text-2xl">
-              Choose your path and begin your journey today.
+              Deepen your practice. Advance your path.
             </p>
           </div>
           <div className="mx-auto grid max-w-5xl gap-6 sm:grid-cols-2 sm:gap-8 lg:gap-10">
