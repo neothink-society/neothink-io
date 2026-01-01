@@ -33,7 +33,7 @@ export function Footer({ onPathClick }: FooterProps) {
         <div className="grid gap-12 sm:gap-14 md:grid-cols-2 lg:grid-cols-5 lg:gap-10">
           {/* Brand column */}
           <div className="lg:col-span-2">
-            <Link href="/" className="mb-4 inline-block font-serif text-2xl italic text-primary sm:mb-5 sm:text-3xl lg:text-4xl">
+            <Link href="/" className="mb-4 inline-block text-2xl font-bold text-primary sm:mb-5 sm:text-3xl lg:text-4xl">
               Neothink+
             </Link>
             <p className="mb-6 max-w-md text-pretty text-base leading-relaxed text-white/80 sm:mb-8 sm:text-lg">

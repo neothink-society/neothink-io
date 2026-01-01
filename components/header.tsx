@@ -54,7 +54,7 @@ export function Header() {
       <nav className="container mx-auto flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <span className="font-serif text-xl font-bold italic text-primary sm:text-2xl">
+          <span className="text-xl font-bold text-primary sm:text-2xl">
             Neothink+
           </span>
         </Link>
