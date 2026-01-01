@@ -79,7 +79,7 @@ export function Header() {
             className="rounded-lg bg-gradient-to-r from-[#FFED4E] to-[#FFD700] px-5 py-2 text-sm font-bold text-black hover:from-[#FFD700] hover:to-[#D4AF37]"
           >
             <Link href="https://community.neothink.io" target="_blank" rel="noopener noreferrer">
-              Join Community
+              Login
             </Link>
           </Button>
         </div>
