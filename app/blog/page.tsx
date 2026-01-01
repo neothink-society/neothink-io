@@ -90,7 +90,7 @@ export default function BlogPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-[#FFED4E] to-[#FFD700] px-8 py-4 text-lg font-bold text-black transition-all hover:from-[#FFD700] hover:to-[#D4AF37]"
               >
-                Join Community
+                Login
               </Link>
             </div>
           </div>
