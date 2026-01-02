@@ -36,15 +36,42 @@ const founders = [
   },
 ]
 
-const timeline = [
-  { year: "1968", event: "Dr. Frank R. Wallace founds I & O Publishing, beginning research into integrated thinking" },
-  { year: "1980", event: "Neo-Tech brand formally emerges as a philosophy of integrated honesty" },
-  { year: "1981", event: "Publication of 'The Neo-Tech Discovery' - foundational work" },
-  { year: "1986", event: "Mark Hamilton joins the movement, beginning four decades of work" },
-  { year: "2006", event: "Dr. Wallace passes, leadership transition to Mark Hamilton begins" },
-  { year: "2007", event: "Mark Hamilton founds the Neothink Society and TVP movement" },
-  { year: "2024", event: "Public launch of Ascension, Neothink University, and Immortalis platforms" },
-  { year: "2025", event: "Neothink+ launches as the administrative gateway" },
+const timelineEras = [
+  {
+    era: "The Neo-Tech Era",
+    period: "1965–2006",
+    events: [
+      { year: "1965", event: "Dr. Frank R. Wallace begins researching integrated thinking while at DuPont" },
+      { year: "1968", event: "I & O Publishing Company founded to disseminate findings" },
+      { year: "1972", event: "Dr. Wallace resigns from DuPont to pursue the cure for irrationality full-time" },
+      { year: "1976", event: "Publication of the Neo-Tech Reference Encyclopedia introduces 'fully integrated honesty'" },
+      { year: "1980s", event: "Mark Hamilton develops the Neothink Mentality and Division of Essence business system" },
+      { year: "1986", event: "IRS raid on I & O Publishing; Mark Hamilton formally joins the movement" },
+      { year: "1996", event: "Publication of Profound Honesty, Zonpower from Cyberspace, and major works" },
+      { year: "2006", event: "Dr. Frank R. Wallace passes away on January 26" },
+    ],
+  },
+  {
+    era: "The Neothink Society Era",
+    period: "2007–2023",
+    events: [
+      { year: "2007", event: "Mark Hamilton founds the Neothink Society and Twelve Visions Party (TVP)" },
+      { year: "2009", event: "TVP holds first National Convention in Chicago" },
+      { year: "2012", event: "TVP runs presidential ticket to introduce the Prime Law" },
+      { year: "2021", event: "Mark Hamilton publishes The New World on the 'Secret Passage' to wealth" },
+    ],
+  },
+  {
+    era: "The Fully Public Era",
+    period: "2024–Present",
+    events: [
+      { year: "2024", event: "Mark Hamilton goes fully public for the first time in 50 years" },
+      { year: "2024", event: "Launch of Immortalis movement—a visionary digital nation based on the Prime Law" },
+      { year: "2025", event: "Introduction of Neovia, America's first Biotech Freedom City" },
+      { year: "2025", event: "Launch of Neothink University, Ascension platform, and Project Life" },
+      { year: "2026", event: "Neothink+ launches as the administrative gateway to all platforms" },
+    ],
+  },
 ]
 
 const stats = [
@@ -202,48 +229,73 @@ export default function AboutPage() {
         {/* Timeline */}
         <section className="py-20 sm:py-24 lg:py-32">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-4xl">
+            <div className="mx-auto max-w-5xl">
               <div className="mb-12 text-center sm:mb-16">
                 <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-primary sm:text-base">
                   Our Journey
                 </p>
-                <h2 className="font-serif text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-                  50+ Years of Innovation
+                <h2 className="mb-6 font-serif text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
+                  Building the Puzzle
                 </h2>
+                <p className="mx-auto max-w-3xl text-lg text-white/70 sm:text-xl">
+                  For decades, the Society was conceiving the picture and putting together the pieces.
+                  Now we behold the puzzle-picture by bringing its structures into the public light.
+                </p>
               </div>
-              <div className="relative">
-                {/* Timeline line */}
-                <div className="absolute left-6 top-0 h-full w-0.5 bg-gradient-to-b from-primary via-primary/50 to-primary/20 sm:left-1/2 sm:-translate-x-px" />
 
-                <div className="space-y-10 sm:space-y-12">
-                  {timeline.map((item, index) => (
-                    <div
-                      key={item.year}
-                      className={`relative flex items-start ${
-                        index % 2 === 0 ? "sm:flex-row" : "sm:flex-row-reverse"
-                      }`}
-                    >
-                      {/* Dot */}
-                      <div className="absolute left-6 top-1.5 z-10 h-4 w-4 -translate-x-1/2 rounded-full border-4 border-black bg-primary sm:left-1/2" />
-
-                      {/* Content */}
-                      <div className={`ml-14 w-full sm:ml-0 sm:w-[calc(50%-2rem)] ${
-                        index % 2 === 0 ? "sm:pr-8 sm:text-right" : "sm:ml-[calc(50%+2rem)] sm:pl-8"
-                      }`}>
-                        <div className={`rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6 transition-all hover:border-primary/30 sm:p-8 ${
-                          index % 2 === 0 ? "" : ""
+              <div className="space-y-12 sm:space-y-16">
+                {timelineEras.map((era, eraIndex) => (
+                  <div key={era.era} className="relative">
+                    {/* Era Header */}
+                    <div className="mb-8 flex items-center gap-4">
+                      <div className={`h-1 flex-1 rounded-full ${
+                        eraIndex === 0 ? "bg-gradient-to-r from-transparent to-amber-500/50" :
+                        eraIndex === 1 ? "bg-gradient-to-r from-transparent to-orange-500/50" :
+                        "bg-gradient-to-r from-transparent to-primary/50"
+                      }`} />
+                      <div className="text-center">
+                        <h3 className={`font-serif text-2xl font-bold sm:text-3xl ${
+                          eraIndex === 0 ? "text-amber-400" :
+                          eraIndex === 1 ? "text-orange-400" :
+                          "text-primary"
                         }`}>
-                          <p className="mb-2 font-serif text-3xl font-bold text-primary sm:text-4xl">
-                            {item.year}
+                          {era.era}
+                        </h3>
+                        <p className="text-sm font-medium text-white/50 sm:text-base">{era.period}</p>
+                      </div>
+                      <div className={`h-1 flex-1 rounded-full ${
+                        eraIndex === 0 ? "bg-gradient-to-l from-transparent to-amber-500/50" :
+                        eraIndex === 1 ? "bg-gradient-to-l from-transparent to-orange-500/50" :
+                        "bg-gradient-to-l from-transparent to-primary/50"
+                      }`} />
+                    </div>
+
+                    {/* Era Events */}
+                    <div className="grid gap-4 sm:grid-cols-2 lg:gap-6">
+                      {era.events.map((event) => (
+                        <div
+                          key={`${era.era}-${event.year}-${event.event.slice(0, 20)}`}
+                          className={`rounded-xl border bg-zinc-900/50 p-5 transition-all hover:bg-zinc-900 sm:p-6 ${
+                            eraIndex === 0 ? "border-amber-500/20 hover:border-amber-500/40" :
+                            eraIndex === 1 ? "border-orange-500/20 hover:border-orange-500/40" :
+                            "border-primary/20 hover:border-primary/40"
+                          }`}
+                        >
+                          <p className={`mb-2 font-serif text-xl font-bold sm:text-2xl ${
+                            eraIndex === 0 ? "text-amber-400" :
+                            eraIndex === 1 ? "text-orange-400" :
+                            "text-primary"
+                          }`}>
+                            {event.year}
                           </p>
-                          <p className="text-base leading-relaxed text-white/80 sm:text-lg">
-                            {item.event}
+                          <p className="text-sm leading-relaxed text-white/80 sm:text-base">
+                            {event.event}
                           </p>
                         </div>
-                      </div>
+                      ))}
                     </div>
-                  ))}
-                </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
