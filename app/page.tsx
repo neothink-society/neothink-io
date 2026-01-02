@@ -23,7 +23,7 @@ export default function Home() {
         <AuthorityBar />
         <MemberTypes selectedPath={selectedPath} setSelectedPath={setSelectedPath} />
         <ContactForm />
-        <Footer onPathClick={setSelectedPath} />
+        <Footer />
       </main>
     </>
   )
