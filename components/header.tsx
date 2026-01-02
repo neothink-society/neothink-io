@@ -50,8 +50,8 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 border-b border-primary/20 bg-black/95 backdrop-blur-sm">
-      <nav className="container mx-auto flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+    <header className="sticky top-0 z-50 border-b border-primary/20 bg-black/95 backdrop-blur-sm" role="banner">
+      <nav aria-label="Main navigation" className="container mx-auto flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <span className="text-xl font-bold text-primary sm:text-2xl">
@@ -97,9 +97,9 @@ export function Header() {
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
-        <div className="border-t border-primary/20 bg-black md:hidden">
+        <nav aria-label="Mobile navigation" className="border-t border-primary/20 bg-black md:hidden">
           <div className="container mx-auto px-4 py-4 sm:px-6">
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4" role="menu">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
@@ -120,7 +120,7 @@ export function Header() {
               </Button>
             </div>
           </div>
-        </div>
+        </nav>
       )}
     </header>
   )

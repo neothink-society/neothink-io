@@ -16,7 +16,7 @@ export function Footer() {
   ]
 
   return (
-    <footer className="border-t-2 border-primary/30 bg-black">
+    <footer className="border-t-2 border-primary/30 bg-black" role="contentinfo" aria-label="Site footer">
       <div className="container mx-auto px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
         <div className="grid gap-12 sm:gap-14 md:grid-cols-2 lg:grid-cols-4 lg:gap-10">
           {/* Brand column */}
@@ -34,8 +34,8 @@ export function Footer() {
 
           {/* Explore column */}
           <div>
-            <h4 className="mb-5 text-base font-bold text-primary sm:mb-6 sm:text-lg">Explore</h4>
-            <ul className="space-y-4 text-base sm:space-y-5 sm:text-lg">
+            <h4 id="footer-explore" className="mb-5 text-base font-bold text-primary sm:mb-6 sm:text-lg">Explore</h4>
+            <ul aria-labelledby="footer-explore" className="space-y-4 text-base sm:space-y-5 sm:text-lg">
               {explore.map((item) => (
                 <li key={item.name}>
                   <Link
@@ -51,8 +51,8 @@ export function Footer() {
 
           {/* Paths column */}
           <div>
-            <h4 className="mb-5 text-base font-bold text-primary sm:mb-6 sm:text-lg">Paths</h4>
-            <ul className="space-y-4 text-base sm:space-y-5 sm:text-lg">
+            <h4 id="footer-paths" className="mb-5 text-base font-bold text-primary sm:mb-6 sm:text-lg">Paths</h4>
+            <ul aria-labelledby="footer-paths" className="space-y-4 text-base sm:space-y-5 sm:text-lg">
               {paths.map((path) => (
                 <li key={path.name}>
                   <Link

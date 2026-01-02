@@ -26,11 +26,16 @@ const courierPrime = Courier_Prime({
   display: "swap",
 })
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://neothink.io"
+
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://neothink.io"),
+  metadataBase: new URL(siteUrl),
   title: "Neothink+ | Admin of Neothink",
   description:
     "Admin of the extraordinary values provided by Mark Hamilton, Wallace Hamilton, the Hamilton Family, and the Neothink Society. Supporting Ascenders, Neothinkers, Immortals, and Superachievers.",
+  alternates: {
+    canonical: siteUrl,
+  },
   keywords: [
     "Neothink",
     "Mark Hamilton",

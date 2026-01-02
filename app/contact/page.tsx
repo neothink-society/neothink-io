@@ -7,6 +7,9 @@ import { ContactForm } from "@/components/contact-form"
 export const metadata: Metadata = {
   title: "Contact | Neothink+",
   description: "Get in touch with the Neothink+ team. Questions about Ascenders, Neothinkers, Immortals, or Superachievers? We're here to help.",
+  alternates: {
+    canonical: "https://neothink.io/contact",
+  },
 }
 
 const pathLinks = [

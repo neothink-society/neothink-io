@@ -502,6 +502,12 @@
   color: #FFED4E;
 }
 
+.prose-article a:focus-visible {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
 /* Blockquotes */
 .prose-article blockquote {
   border-left: 4px solid #FFD700;
@@ -538,4 +544,24 @@
 .prose-article pre code {
   background: none;
   padding: 0;
+}
+
+/* Global focus enhancement for all interactive elements */
+@layer base {
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible,
+  [role="button"]:focus-visible,
+  [tabindex]:focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
+  }
+
+  /* Enhanced focus for navigation links */
+  nav a:focus-visible {
+    outline-offset: 4px;
+  }
 }

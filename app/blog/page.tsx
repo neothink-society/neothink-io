@@ -7,6 +7,9 @@ import { getAllPosts } from "@/lib/blog"
 export const metadata: Metadata = {
   title: "Blog | Neothink+",
   description: "Explore articles on integrated thinking, value creation, and the Neothink philosophy. Discover insights for Ascenders, Neothinkers, Immortals, and Superachievers.",
+  alternates: {
+    canonical: "https://neothink.io/blog",
+  },
 }
 
 // Category color mapping
@@ -49,7 +52,7 @@ export default function BlogPage() {
           <section className="py-16 sm:py-20 lg:py-24">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
               <div className="mx-auto max-w-6xl">
-                <p className="mb-8 text-center text-sm font-bold uppercase tracking-[0.2em] text-white/50 sm:mb-10 sm:text-base">
+                <p className="mb-8 text-center text-sm font-bold uppercase tracking-[0.2em] text-white/70 sm:mb-10 sm:text-base">
                   Featured Article
                 </p>
                 <Link
@@ -65,9 +68,9 @@ export default function BlogPage() {
                             <span className={`rounded-full border ${colors.border} ${colors.bg} px-4 py-1.5 text-sm font-bold ${colors.text} sm:px-5 sm:py-2`}>
                               {featuredPost.category}
                             </span>
-                            <span className="text-base text-white/50">{featuredPost.readTime}</span>
-                            <span className="hidden text-white/30 sm:inline">•</span>
-                            <time dateTime={featuredPost.date} className="text-base text-white/50">
+                            <span className="text-base text-white/70">{featuredPost.readTime}</span>
+                            <span className="hidden text-white/50 sm:inline">•</span>
+                            <time dateTime={featuredPost.date} className="text-base text-white/70">
                               {new Date(featuredPost.date).toLocaleDateString("en-US", {
                                 year: "numeric",
                                 month: "long",
@@ -104,7 +107,7 @@ export default function BlogPage() {
           <section className="border-t border-zinc-800/50 bg-zinc-950/50 py-16 sm:py-20 lg:py-24">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
               <div className="mx-auto max-w-6xl">
-                <p className="mb-10 text-center text-sm font-bold uppercase tracking-[0.2em] text-white/50 sm:mb-12 sm:text-base">
+                <p className="mb-10 text-center text-sm font-bold uppercase tracking-[0.2em] text-white/70 sm:mb-12 sm:text-base">
                   More Articles
                 </p>
                 <div className="grid gap-6 sm:gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -119,7 +122,7 @@ export default function BlogPage() {
                           <span className={`rounded-full border ${colors.border} ${colors.bg} px-3 py-1 text-sm font-bold ${colors.text}`}>
                             {post.category}
                           </span>
-                          <span className="text-sm text-white/50">{post.readTime}</span>
+                          <span className="text-sm text-white/70">{post.readTime}</span>
                         </div>
                         <h2 className="mb-3 font-serif text-xl font-bold leading-snug text-white transition-colors group-hover:text-primary sm:text-2xl">
                           <Link href={`/blog/${post.slug}`}>
@@ -136,7 +139,7 @@ export default function BlogPage() {
                             </div>
                             <span className="text-sm text-white/60">{post.author}</span>
                           </div>
-                          <time dateTime={post.date} className="text-sm text-white/50">
+                          <time dateTime={post.date} className="text-sm text-white/70">
                             {new Date(post.date).toLocaleDateString("en-US", {
                               month: "short",
                               day: "numeric",

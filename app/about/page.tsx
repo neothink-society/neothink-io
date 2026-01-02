@@ -6,6 +6,9 @@ import { Footer } from "@/components/footer"
 export const metadata: Metadata = {
   title: "About | Neothink+",
   description: "After 50+ years as an underground success network, Neothink is now public. Learn about our mission to create value creators, integrated thinkers, and self-leaders.",
+  alternates: {
+    canonical: "https://neothink.io/about",
+  },
 }
 
 const founders = [
@@ -213,7 +216,7 @@ export default function AboutPage() {
                               {founder.role}
                             </p>
                           </div>
-                          <p className="text-sm font-medium text-white/50 sm:text-base">{founder.years}</p>
+                          <p className="text-sm font-medium text-white/70 sm:text-base">{founder.years}</p>
                         </div>
                         <p className="text-lg leading-relaxed text-white/70 sm:text-xl">
                           {founder.description}
@@ -262,7 +265,7 @@ export default function AboutPage() {
                         }`}>
                           {era.era}
                         </h3>
-                        <p className="text-sm font-medium text-white/50 sm:text-base">{era.period}</p>
+                        <p className="text-sm font-medium text-white/70 sm:text-base">{era.period}</p>
                       </div>
                       <div className={`h-1 flex-1 rounded-full ${
                         eraIndex === 0 ? "bg-gradient-to-l from-transparent to-amber-500/50" :

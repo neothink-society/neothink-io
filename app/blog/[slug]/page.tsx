@@ -4,6 +4,7 @@ import { notFound } from "next/navigation"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { getAllPosts, getPostBySlug } from "@/lib/blog"
+import { sanitizeHtml } from "@/lib/sanitize"
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -22,6 +23,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${post.title} | Neothink+`,
     description: post.excerpt,
+    alternates: {
+      canonical: `https://neothink.io/blog/${slug}`,
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,
@@ -94,9 +98,9 @@ export default async function BlogPostPage({ params }: Props) {
                 <span className={`rounded-full border ${colors.border} ${colors.bg} px-4 py-1.5 text-sm font-bold ${colors.text} sm:px-5 sm:py-2 sm:text-base`}>
                   {post.category}
                 </span>
-                <span className="text-base text-white/50 sm:text-lg">{post.readTime}</span>
+                <span className="text-base text-white/70 sm:text-lg">{post.readTime}</span>
                 <span className="hidden text-white/30 sm:inline">•</span>
-                <time dateTime={post.date} className="text-base text-white/50 sm:text-lg">
+                <time dateTime={post.date} className="text-base text-white/70 sm:text-lg">
                   {new Date(post.date).toLocaleDateString("en-US", {
                     year: "numeric",
                     month: "long",
@@ -239,5 +243,6 @@ function formatMarkdown(content: string): string {
     return `<ul>${match}</ul>`
   })
 
-  return html
+  // Sanitize HTML to prevent XSS attacks
+  return sanitizeHtml(html)
 }
