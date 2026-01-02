@@ -22,7 +22,9 @@ const categoryColors: Record<string, { bg: string; text: string; border: string 
 
 export default function BlogPage() {
   const posts = getAllPosts()
-  const [featuredPost, ...otherPosts] = posts
+  // Feature the Superachiever post (the meta-path)
+  const featuredPost = posts.find(p => p.slug === "the-superachiever-path") || posts[0]
+  const otherPosts = posts.filter(p => p.slug !== featuredPost.slug)
 
   return (
     <>
