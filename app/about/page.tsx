@@ -254,7 +254,7 @@ export default function AboutPage() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-3xl py-20 text-center sm:py-24 lg:py-32">
               <h2 className="mb-6 font-serif text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-                Begin Your Path Today
+                Continue Your Path
               </h2>
               <p className="mb-10 text-lg text-white/70 sm:text-xl lg:text-2xl">
                 Discover which path aligns with your goals and connect with fellow value creators.
