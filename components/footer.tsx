@@ -2,17 +2,17 @@ import Link from "next/link"
 
 export function Footer() {
   const specialPaths = [
-    { name: "The Wealthy Ascender", color: "text-orange-400 hover:text-orange-300", href: "/blog/the-ascender-path" },
-    { name: "The Happy Neothinker", color: "text-amber-400 hover:text-amber-300", href: "/blog/the-neothinker-path" },
-    { name: "The Healthy Immortal", color: "text-red-400 hover:text-red-300", href: "/blog/the-immortal-path" },
-    { name: "The Lucky Superachiever", color: "text-yellow-400 hover:text-yellow-300", href: "/blog/the-superachiever-path" },
+    { prefix: "The Wealthy", name: "Ascender", color: "text-orange-400 hover:text-orange-300", href: "/blog/the-ascender-path" },
+    { prefix: "The Happy", name: "Neothinker", color: "text-amber-400 hover:text-amber-300", href: "/blog/the-neothinker-path" },
+    { prefix: "The Healthy", name: "Immortal", color: "text-red-400 hover:text-red-300", href: "/blog/the-immortal-path" },
+    { prefix: "The Lucky", name: "Superachiever", color: "text-yellow-400 hover:text-yellow-300", href: "/blog/the-superachiever-path" },
   ]
 
   const generalPaths = [
-    { name: "Neothink Revolution", href: "#" },
-    { name: "Neothink Fellowship", href: "#" },
-    { name: "Neothink Movement", href: "#" },
-    { name: "Neothink Command", href: "#" },
+    { prefix: "Neothink", name: "Revolution", href: "#" },
+    { prefix: "Neothink", name: "Fellowship", href: "#" },
+    { prefix: "Neothink", name: "Movement", href: "#" },
+    { prefix: "Neothink", name: "Command", href: "#" },
   ]
 
   const explore = [
@@ -105,7 +105,7 @@ export function Footer() {
                       className="group inline-flex items-center text-sm text-white/70 transition-colors duration-200 hover:text-primary"
                     >
                       <span className="mr-2 h-px w-0 bg-primary transition-all duration-200 group-hover:w-3" />
-                      {path.name}
+                      {path.prefix} <span className="ml-1 font-semibold">{path.name}</span>
                     </Link>
                   </li>
                 ))}
@@ -125,7 +125,7 @@ export function Footer() {
                       className={`group inline-flex items-center text-sm transition-all duration-200 ${path.color}`}
                     >
                       <span className="mr-2 inline-block h-1.5 w-1.5 rounded-full bg-current opacity-60 transition-all duration-200 group-hover:opacity-100 group-hover:scale-125" />
-                      {path.name}
+                      {path.prefix} <span className="ml-1 font-semibold">{path.name}</span>
                     </Link>
                   </li>
                 ))}
