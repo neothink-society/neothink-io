@@ -301,3 +301,241 @@
     }
   }
 }
+
+/* Enhanced article prose styles */
+.prose-article {
+  /* Base typography */
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+@media (min-width: 640px) {
+  .prose-article {
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.85;
+  }
+}
+
+@media (min-width: 1024px) {
+  .prose-article {
+    font-size: 1.375rem; /* 22px */
+  }
+}
+
+/* Headings */
+.prose-article h1 {
+  font-family: var(--font-serif), "Baskervville", Georgia, serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.prose-article h2 {
+  font-family: var(--font-serif), "Baskervville", Georgia, serif;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  color: #fff;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.prose-article h3 {
+  font-family: var(--font-serif), "Baskervville", Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+@media (min-width: 640px) {
+  .prose-article h1 {
+    font-size: 2.75rem;
+  }
+  .prose-article h2 {
+    font-size: 2.25rem;
+  }
+  .prose-article h3 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .prose-article h1 {
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .prose-article h2 {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+  }
+  .prose-article h3 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
+/* First heading - no top margin */
+.prose-article > div > h1:first-child,
+.prose-article > div > h2:first-child,
+.prose-article > div > h3:first-child {
+  margin-top: 0;
+}
+
+/* Paragraphs */
+.prose-article p {
+  margin-bottom: 1.75rem;
+}
+
+@media (min-width: 1024px) {
+  .prose-article p {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Strong text */
+.prose-article strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Emphasis */
+.prose-article em {
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Lists */
+.prose-article ul,
+.prose-article ol {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  padding-left: 0;
+}
+
+@media (min-width: 1024px) {
+  .prose-article ul,
+  .prose-article ol {
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.prose-article li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+@media (min-width: 640px) {
+  .prose-article li {
+    padding-left: 2.5rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
+.prose-article ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.75em;
+  width: 8px;
+  height: 8px;
+  background: linear-gradient(135deg, #FFED4E, #FFD700);
+  border-radius: 50%;
+}
+
+@media (min-width: 640px) {
+  .prose-article ul li::before {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.prose-article ol {
+  counter-reset: list-counter;
+}
+
+.prose-article ol li {
+  counter-increment: list-counter;
+}
+
+.prose-article ol li::before {
+  content: counter(list-counter) ".";
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+  color: #FFD700;
+  font-size: 1.1em;
+}
+
+/* Nested lists */
+.prose-article ul ul,
+.prose-article ol ol,
+.prose-article ul ol,
+.prose-article ol ul {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Links in content */
+.prose-article a {
+  color: #FFD700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.prose-article a:hover {
+  color: #FFED4E;
+}
+
+/* Blockquotes */
+.prose-article blockquote {
+  border-left: 4px solid #FFD700;
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media (min-width: 1024px) {
+  .prose-article blockquote {
+    padding-left: 2rem;
+    margin: 2.5rem 0;
+  }
+}
+
+/* Code */
+.prose-article code {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-family: var(--font-mono), "Courier Prime", monospace;
+}
+
+.prose-article pre {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 12px;
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+
+.prose-article pre code {
+  background: none;
+  padding: 0;
+}

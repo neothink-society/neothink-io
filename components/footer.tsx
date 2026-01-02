@@ -17,7 +17,7 @@ export function Footer({ onPathClick }: FooterProps) {
   const explore = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
-    { name: "Insights", href: "/blog" },
+    { name: "Blog", href: "/blog" },
     { name: "Contact", href: "/contact" },
   ]
 
