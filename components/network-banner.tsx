@@ -46,8 +46,8 @@ export function NetworkBanner() {
   return (
     <div className="relative bg-zinc-900 border-b-2 border-primary">
       <div className="container mx-auto px-4 py-3.5 sm:py-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between gap-4">
-          <div className="flex flex-1 flex-wrap items-center justify-center gap-x-2 gap-y-1 text-center text-base font-medium sm:gap-x-3 sm:text-lg">
+        <div className="flex items-center justify-center">
+          <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-center text-base font-medium sm:gap-x-3 sm:text-lg">
             <span className="text-white">
               Looking for the <span className="font-bold text-primary">Neothink Network</span>?
             </span>
@@ -61,17 +61,17 @@ export function NetworkBanner() {
               <ExternalLinkIcon />
             </a>
           </div>
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={() => setIsVisible(false)}
-            className="h-10 w-10 shrink-0 p-0 text-white/70 hover:text-white hover:bg-white/10 rounded-lg"
-            aria-label="Close banner"
-          >
-            <XIcon />
-          </Button>
         </div>
       </div>
+      <Button
+        variant="ghost"
+        size="sm"
+        onClick={() => setIsVisible(false)}
+        className="absolute right-2 top-1/2 -translate-y-1/2 h-10 w-10 p-0 text-white/70 hover:text-white hover:bg-white/10 rounded-lg sm:right-4"
+        aria-label="Close banner"
+      >
+        <XIcon />
+      </Button>
     </div>
   )
 }
