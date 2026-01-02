@@ -23,7 +23,6 @@ export function Footer() {
   ]
 
   const external = [
-    { name: "Community", href: "https://community.neothink.io" },
     { name: "Mark Hamilton", href: "https://markhamilton.co" },
     { name: "Neothink Society", href: "https://neothink.com" },
   ]
@@ -113,12 +112,12 @@ export function Footer() {
               </ul>
             </div>
 
-            {/* Special Paths column - spans 2 on larger screens for longer names */}
-            <div className="col-span-2">
+            {/* Special Paths column */}
+            <div>
               <h4 id="footer-special-paths" className="text-xs font-semibold uppercase tracking-wider text-white/40 sm:text-sm">
                 Special Paths
               </h4>
-              <ul aria-labelledby="footer-special-paths" className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
+              <ul aria-labelledby="footer-special-paths" className="mt-4 space-y-3">
                 {specialPaths.map((path) => (
                   <li key={path.name}>
                     <Link
