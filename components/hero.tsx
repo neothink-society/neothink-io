@@ -61,54 +61,50 @@ export function Hero() {
             We Make It <span className="text-primary">Possible</span>
           </h1>
 
-          <p className="mx-auto mb-10 max-w-2xl text-pretty text-lg leading-relaxed text-white/90 sm:mb-12 sm:text-xl lg:text-2xl">
-            After 50+ years operating as an underground success network, we are now passing the{" "}
+          <p className="mx-auto mb-12 max-w-2xl text-pretty text-lg leading-relaxed text-white/90 sm:mb-14 sm:text-xl lg:text-2xl">
+            After 50+ years operating as the world&apos;s most powerful secret society, we are now passing the{" "}
             <span className="font-bold text-white">keys to the kingdom</span> to a new generation of{" "}
             <span className="font-bold text-white">value creators</span>,{" "}
             <span className="font-bold text-white">integrated thinkers</span>, and{" "}
             <span className="font-bold text-white">self-leaders</span>.
           </p>
 
-          <p className="mx-auto mb-10 text-xl font-bold text-primary sm:mb-12 sm:text-2xl">
-            Prosper Happily Forever — Go Further, Faster, Forever
-          </p>
-
-          <div className="flex flex-col items-center justify-center gap-5 sm:gap-6">
+          <div className="flex flex-col items-center gap-6 sm:gap-8">
+            {/* Primary CTA */}
             <Button
               size="lg"
               asChild
-              className="group relative w-full max-w-[320px] overflow-hidden rounded-xl bg-gradient-to-r from-[#FFED4E] to-[#FFD700] px-8 py-7 text-lg font-bold tracking-wide text-black transition-all duration-300 hover:from-[#FFD700] hover:to-[#D4AF37] sm:px-10 sm:py-8 sm:text-xl"
+              className="group relative w-full max-w-[340px] overflow-hidden rounded-2xl bg-gradient-to-r from-[#FFED4E] to-[#FFD700] px-10 py-8 text-xl font-bold tracking-wide text-black shadow-lg shadow-primary/25 transition-all duration-300 hover:scale-[1.02] hover:from-[#FFD700] hover:to-[#D4AF37] hover:shadow-xl hover:shadow-primary/30 sm:px-12 sm:py-9 sm:text-2xl"
             >
               <Link href="https://community.neothink.io" target="_blank" rel="noopener noreferrer">
                 <span className="flex items-center justify-center">
                   <UserCircleIcon />
-                  Login to Community
+                  Login
                 </span>
               </Link>
             </Button>
 
-            <div className="flex w-full flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
-              <Button
-                size="lg"
-                variant="outline"
-                asChild
-                className="group w-full max-w-[200px] rounded-xl border-2 border-primary/50 bg-transparent px-6 py-6 text-base font-bold text-white transition-all duration-300 hover:border-primary hover:bg-primary/10 sm:w-auto sm:px-8 sm:py-7 sm:text-lg"
+            {/* Secondary Links */}
+            <div className="flex items-center gap-6 text-base sm:gap-8 sm:text-lg">
+              <Link
+                href="https://markhamilton.co"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center font-semibold text-white/70 transition-colors duration-300 hover:text-primary"
               >
-                <Link href="https://markhamilton.co" target="_blank" rel="noopener noreferrer">
-                  Mark Hamilton
-                  <ExternalLinkIcon />
-                </Link>
-              </Button>
-              <Button
-                size="lg"
-                asChild
-                className="group w-full max-w-[200px] rounded-xl bg-primary px-6 py-6 text-base font-bold text-black transition-all duration-300 hover:bg-primary/90 sm:w-auto sm:px-8 sm:py-7 sm:text-lg"
+                Mark Hamilton
+                <ExternalLinkIcon />
+              </Link>
+              <span className="text-white/30">|</span>
+              <Link
+                href="https://neothink.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center font-semibold text-white/70 transition-colors duration-300 hover:text-primary"
               >
-                <Link href="https://neothink.com" target="_blank" rel="noopener noreferrer">
-                  Neothink Society
-                  <ExternalLinkIcon />
-                </Link>
-              </Button>
+                Neothink Society
+                <ExternalLinkIcon />
+              </Link>
             </div>
           </div>
         </div>
