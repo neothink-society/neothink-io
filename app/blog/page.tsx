@@ -34,7 +34,7 @@ export default function BlogPage() {
                 The Neothink Blog
               </p>
               <h1 className="mb-6 font-serif text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl xl:text-7xl">
-                Insights for Value Creators
+                Wisdom That Works
               </h1>
               <p className="mx-auto max-w-2xl text-lg leading-relaxed text-white/70 sm:text-xl lg:text-2xl">
                 Explore the paths of integrated thinking, value creation, and self-leadership
