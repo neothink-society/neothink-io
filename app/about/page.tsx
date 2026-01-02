@@ -30,7 +30,7 @@ const founders = [
     name: "Wallace Hamilton",
     role: "Director of Operations",
     description: "Third-generation leader applying integrated thinking to modern technology and the digital infrastructure powering Ascension, Neothink University, and Immortalis.",
-    years: "2007-Present",
+    years: "2019-Present",
     initial: "WH",
     color: "orange",
   },
@@ -58,6 +58,7 @@ const timelineEras = [
       { year: "2007", event: "Mark Hamilton founds the Neothink Society and Twelve Visions Party (TVP)" },
       { year: "2009", event: "TVP holds first National Convention in Chicago" },
       { year: "2012", event: "TVP runs presidential ticket to introduce the Prime Law" },
+      { year: "2019", event: "Wallace Hamilton joins as Director of Operations, bringing integrated thinking to technology" },
       { year: "2021", event: "Mark Hamilton publishes The New World on the 'Secret Passage' to wealth" },
     ],
   },
@@ -69,7 +70,7 @@ const timelineEras = [
       { year: "2024", event: "Launch of Immortalis movement—a visionary digital nation based on the Prime Law" },
       { year: "2025", event: "Introduction of Neovia, America's first Biotech Freedom City" },
       { year: "2025", event: "Launch of Neothink University, Ascension platform, and Project Life" },
-      { year: "2026", event: "Neothink+ launches as the administrative gateway to all platforms" },
+      { year: "2026", event: "Something extraordinary begins to unfold..." },
     ],
   },
 ]
@@ -139,19 +140,19 @@ export default function AboutPage() {
               </div>
               <div className="space-y-8 text-lg leading-relaxed text-white/80 sm:text-xl lg:text-2xl">
                 <p>
-                  We are the architects of a self-evolutionary movement focused on preserving the ultimate
-                  value in the universe: <span className="font-semibold text-white">human consciousness</span>.
+                  Most people spend their lives following. Following trends, following advice, following rules
+                  they never questioned. We exist for those who sense there&apos;s something more—and refuse to let it go.
                 </p>
                 <p>
-                  Our mission is to transform individuals from the "following mode" into self-leaders who
-                  create value, think integratively, and control their own destiny.
+                  Human consciousness is the ultimate value in the universe. And yet most people never fully
+                  activate theirs. We&apos;re here to change that—not by teaching, but by <span className="font-semibold text-white">awakening what&apos;s already there</span>.
                 </p>
                 <p>
                   Through four integrated platforms—<span className="font-bold text-orange-400">Ascension</span> for prosperity,{" "}
                   <span className="font-bold text-amber-400">Neothink University</span> for happiness,{" "}
                   <span className="font-bold text-red-400">Immortalis</span> for longevity, and{" "}
                   <span className="font-bold text-yellow-400">Prime Literature</span> for foundational knowledge—we
-                  provide the education, tools, and community to help you prosper happily forever.
+                  offer the path. You decide how far to walk it.
                 </p>
               </div>
             </div>

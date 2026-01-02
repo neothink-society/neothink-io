@@ -73,10 +73,10 @@ const memberTypes = [
     icon: TrendingUpIcon,
     title: "Ascenders",
     focus: "Prosperity",
-    tagline: "Value Creator",
+    tagline: "The Wealthy",
     description:
-      "Access the Ascension platform and proven business systems. Build and scale profitable ventures through the division of essence and mini-company frameworks.",
-    cta: "Unlock Prosperity",
+      "You weren't built to trade time for money. You were built to create value—real value that compounds while you sleep. This is how you break free.",
+    cta: "Unlock the Wealthy Ascender",
     color: "text-orange-400",
     bgGradient: "bg-gradient-to-br from-orange-950/50 via-zinc-900 to-black",
     borderColor: "border-l-4 border-l-orange-500 border-y border-r border-zinc-700",
@@ -92,10 +92,10 @@ const memberTypes = [
     icon: HeartIcon,
     title: "Neothinkers",
     focus: "Happiness",
-    tagline: "Integrated Thinker",
+    tagline: "The Happy",
     description:
-      "Develop Billionaire Consciousness through Neothink University. Master integrated thinking to see through illusions and solve complex life problems.",
-    cta: "Experience Happiness",
+      "Most people think in fragments. You'll learn to think in puzzles—snapping together pieces others can't even see. That's when everything changes.",
+    cta: "Unlock the Happy Neothinker",
     color: "text-amber-400",
     bgGradient: "bg-gradient-to-br from-amber-950/50 via-zinc-900 to-black",
     borderColor: "border-l-4 border-l-amber-500 border-y border-r border-zinc-700",
@@ -111,10 +111,10 @@ const memberTypes = [
     icon: InfinityIcon,
     title: "Immortals",
     focus: "Longevity",
-    tagline: "Self-Leader",
+    tagline: "The Healthy",
     description:
-      "Join the Immortalis movement and Project Life. Participate in cutting-edge longevity research and the mission to make aging optional.",
-    cta: "Pursue Longevity",
+      "What if aging isn't inevitable? What if the \"rules\" about human lifespan are just... assumptions? Some of us aren't willing to accept limits others never questioned.",
+    cta: "Unlock the Healthy Immortal",
     color: "text-red-400",
     bgGradient: "bg-gradient-to-br from-red-950/50 via-zinc-900 to-black",
     borderColor: "border-l-4 border-l-red-500 border-y border-r border-zinc-700",
@@ -130,10 +130,10 @@ const memberTypes = [
     icon: ZapIcon,
     title: "Superachievers",
     focus: "Intelligence",
-    tagline: "Neothink Mentality",
+    tagline: "The Lucky",
     description:
-      "Operate at the highest level with Ten-Second Miracles and the full Neothink toolkit. Build empires through integrated puzzles that shape the future.",
-    cta: "Master Intelligence",
+      "The meta path to be, do, and have it all. Where decisions become effortless and opportunities appear before others notice them. This is where exceptional becomes ordinary.",
+    cta: "Unlock the Lucky Superachiever",
     color: "text-yellow-400",
     bgGradient: "bg-gradient-to-br from-yellow-950/50 via-zinc-900 to-black",
     borderColor: "border-l-4 border-l-yellow-500 border-y border-r border-zinc-700",
@@ -162,7 +162,7 @@ export function MemberTypes({ selectedPath, setSelectedPath }: MemberTypesProps)
               Four Paths to <span className="text-primary">Transformation</span>
             </h2>
             <p className="text-pretty text-lg text-white/80 sm:text-xl lg:text-2xl">
-              Deepen your practice. Advance your path.
+              Each unlocks something different. All lead somewhere remarkable.
             </p>
           </div>
           <div className="mx-auto grid max-w-5xl gap-6 sm:grid-cols-2 sm:gap-8 lg:gap-10">

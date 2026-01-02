@@ -111,9 +111,9 @@ export function ContactForm() {
               Get in Touch
             </div>
             <h2 className="mb-4 text-balance font-serif text-3xl font-bold tracking-tight text-white sm:mb-5 sm:text-4xl lg:text-5xl">
-              Questions or Feedback?
+              Ready to Talk?
             </h2>
-            <p className="text-pretty text-lg text-white/80 sm:text-xl lg:text-2xl">Reach out to the administrators.</p>
+            <p className="text-pretty text-lg text-white/80 sm:text-xl lg:text-2xl">We read every message. If you&apos;re serious, so are we.</p>
           </div>
           <Card className="border-l-4 border-l-primary border-y border-r border-zinc-700 bg-zinc-900/50 p-6 sm:p-8 lg:p-12 rounded-2xl">
             {isSuccess ? (

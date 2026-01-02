@@ -62,11 +62,9 @@ export function Hero() {
           </h1>
 
           <p className="mx-auto mb-12 max-w-2xl text-pretty text-lg leading-relaxed text-white/90 sm:mb-14 sm:text-xl lg:text-2xl">
-            After 50+ years operating as the world&apos;s most powerful secret society, we are now passing the{" "}
-            <span className="font-bold text-white">keys to the kingdom</span> to a new generation of{" "}
-            <span className="font-bold text-white">value creators</span>,{" "}
-            <span className="font-bold text-white">integrated thinkers</span>, and{" "}
-            <span className="font-bold text-white">self-leaders</span>.
+            You once knew you were meant for something extraordinary. That feeling never left—it was simply{" "}
+            <span className="font-bold text-white">buried</span>. For 50+ years, we&apos;ve quietly helped thousands reclaim what was always theirs.{" "}
+            Now, for the first time, the <span className="font-bold text-white">doors are open</span>.
           </p>
 
           <div className="flex flex-col items-center gap-6 sm:gap-8">
