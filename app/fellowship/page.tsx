@@ -5,7 +5,7 @@ import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
   title: "Neothink Fellowship | Neothink+",
-  description: "The Neothink Fellowship connects value creators, integrated thinkers, and self-leaders in a community of mutual growth and support.",
+  description: "Progress as an individual through the Neothink Fellowship—from Academy to University to Institute, transforming from member to mentee to mentor to master.",
   alternates: {
     canonical: "https://neothink.io/fellowship",
   },
@@ -28,7 +28,7 @@ export default function FellowshipPage() {
                 Neothink Fellowship
               </h1>
               <p className="mx-auto max-w-2xl text-lg leading-relaxed text-white/70 sm:text-xl lg:text-2xl">
-                A community of value creators, integrated thinkers, and self-leaders united by the pursuit of prosperity, happiness, and longevity.
+                Your individual progression through the levels of mastery—from member to mentee to mentor to master.
               </p>
             </div>
           </div>
@@ -41,23 +41,44 @@ export default function FellowshipPage() {
               <div className="prose prose-lg prose-invert mx-auto">
                 <h2 className="font-serif text-2xl font-bold text-white sm:text-3xl">What is the Fellowship?</h2>
                 <p className="text-white/70">
-                  The Neothink Fellowship is more than a network—it&apos;s a living ecosystem of individuals committed to integrated thinking and value creation. Here, you&apos;ll find others who understand the journey from follower to self-leader.
+                  The Neothink Fellowship is your path of individual progression. While the Revolution shows you the overview and the Movement focuses on collective advancement, Fellowship is about your personal transformation—growing from a new member into a master of integrated thinking.
                 </p>
                 <p className="text-white/70">
-                  Unlike traditional communities built around shared consumption or complaint, the Fellowship is built around shared creation. Members support each other&apos;s growth while pursuing their own Friday-Night Essence—the productive passion that drives authentic prosperity.
+                  This isn&apos;t passive learning. Each stage represents a deepening commitment to value creation and a growing capacity to help others on their journey.
                 </p>
-                <h2 className="mt-12 font-serif text-2xl font-bold text-white sm:text-3xl">Fellowship Values</h2>
-                <ul className="space-y-3 text-white/70">
-                  <li><strong className="text-white">Value Creation</strong> — Members contribute more than they take</li>
-                  <li><strong className="text-white">Integrated Thinking</strong> — Wide-scope perspective over narrow specialization</li>
-                  <li><strong className="text-white">Self-Leadership</strong> — Each member is the authority in their own life</li>
-                  <li><strong className="text-white">Mutual Growth</strong> — Rising together through shared knowledge and support</li>
-                </ul>
+
+                <h2 className="mt-12 font-serif text-2xl font-bold text-white sm:text-3xl">The Three Stages</h2>
+
+                <div className="mt-6 space-y-8">
+                  <div className="rounded-lg border border-white/10 bg-white/5 p-6">
+                    <h3 className="font-serif text-xl font-bold text-primary">Academy</h3>
+                    <p className="mt-2 text-sm uppercase tracking-wider text-white/40">Member → Mentee</p>
+                    <p className="mt-3 text-white/70">
+                      Your foundation. In the Academy, you absorb the core principles of Neothink—integrated thinking, value creation, self-leadership. You begin as a member and through study and practice, you become a mentee ready to receive deeper guidance.
+                    </p>
+                  </div>
+
+                  <div className="rounded-lg border border-white/10 bg-white/5 p-6">
+                    <h3 className="font-serif text-xl font-bold text-primary">University</h3>
+                    <p className="mt-2 text-sm uppercase tracking-wider text-white/40">Mentee → Mentor</p>
+                    <p className="mt-3 text-white/70">
+                      Your expansion. In the University, you deepen your understanding and begin applying Neothink principles to create real value. As you grow from mentee to mentor, you gain the ability to guide others through their Academy journey.
+                    </p>
+                  </div>
+
+                  <div className="rounded-lg border border-white/10 bg-white/5 p-6">
+                    <h3 className="font-serif text-xl font-bold text-primary">Institute</h3>
+                    <p className="mt-2 text-sm uppercase tracking-wider text-white/40">Mentor → Master</p>
+                    <p className="mt-3 text-white/70">
+                      Your mastery. In the Institute, you refine your capabilities to their highest expression. You transition from mentor to master—someone who not only creates value and guides others but helps shape the direction of the entire Fellowship.
+                    </p>
+                  </div>
+                </div>
               </div>
 
               <div className="mt-16 text-center">
                 <p className="mb-8 text-lg text-white/60">
-                  Ready to join the Fellowship?
+                  Ready to begin your Fellowship?
                 </p>
                 <Link
                   href="https://community.neothink.io"

@@ -5,7 +5,7 @@ import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
   title: "Neothink Revolution | Neothink+",
-  description: "The Neothink Revolution represents the fundamental shift in human consciousness—from follower-mode to self-leader, from consumer to creator, from passenger to driver.",
+  description: "Discover what Neothink offers. The Revolution is your entry point—an overview of the entire Neothink ecosystem and the path to prosperity, happiness, and longevity.",
   alternates: {
     canonical: "https://neothink.io/revolution",
   },
@@ -28,7 +28,7 @@ export default function RevolutionPage() {
                 Neothink Revolution
               </h1>
               <p className="mx-auto max-w-2xl text-lg leading-relaxed text-white/70 sm:text-xl lg:text-2xl">
-                The fundamental shift in human consciousness—from follower-mode to self-leader, from consumer to creator, from passenger to driver.
+                Your entry point into the Neothink ecosystem. Discover everything we offer and begin your journey toward prosperity, happiness, and longevity.
               </p>
             </div>
           </div>
@@ -41,23 +41,25 @@ export default function RevolutionPage() {
               <div className="prose prose-lg prose-invert mx-auto">
                 <h2 className="font-serif text-2xl font-bold text-white sm:text-3xl">What is the Revolution?</h2>
                 <p className="text-white/70">
-                  The Neothink Revolution isn&apos;t a political movement or social cause. It&apos;s something far more fundamental: the awakening of integrated thinking in individuals who refuse to accept the limitations imposed by external authorities.
+                  The Neothink Revolution is the process of discovering what Neothink offers. It&apos;s an overview of everything—the complete picture of how integrated thinking, value creation, and self-leadership work together to transform lives.
                 </p>
                 <p className="text-white/70">
-                  Throughout history, humanity has been trapped in a cycle of following—looking to leaders, institutions, and traditions for answers that can only come from within. The Revolution breaks this cycle by developing self-leaders who think for themselves, create values for society, and prosper through their own integrated efforts.
+                  This is where your journey begins. Before diving into Fellowship, Movement, or Command, you need to see the full landscape. The Revolution provides that panoramic view—helping you understand not just what Neothink is, but what it can mean for your life.
                 </p>
-                <h2 className="mt-12 font-serif text-2xl font-bold text-white sm:text-3xl">The Core Shift</h2>
+                <h2 className="mt-12 font-serif text-2xl font-bold text-white sm:text-3xl">The Complete Picture</h2>
                 <ul className="space-y-3 text-white/70">
-                  <li><strong className="text-white">From Following to Leading</strong> — Becoming the authority in your own life</li>
-                  <li><strong className="text-white">From Consuming to Creating</strong> — Adding value instead of just extracting it</li>
-                  <li><strong className="text-white">From Reacting to Integrating</strong> — Seeing the whole picture, not just fragments</li>
-                  <li><strong className="text-white">From Stagnation to Growth</strong> — Continuous evolution through value creation</li>
+                  <li><strong className="text-white">Fellowship</strong> — Your individual progression from member to mentee to mentor to master</li>
+                  <li><strong className="text-white">Movement</strong> — Our collective progression from startup society to network state</li>
+                  <li><strong className="text-white">Command</strong> — The ecosystem of ventures, enterprises, and industries we build together</li>
                 </ul>
+                <p className="mt-6 text-white/70">
+                  The Revolution is understanding how these three paths interweave—how your personal growth supports collective advancement, and how our shared ventures create the foundation for individual prosperity.
+                </p>
               </div>
 
               <div className="mt-16 text-center">
                 <p className="mb-8 text-lg text-white/60">
-                  Ready to join the Revolution?
+                  Ready to begin your Revolution?
                 </p>
                 <Link
                   href="https://community.neothink.io"

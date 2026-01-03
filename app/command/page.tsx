@@ -5,7 +5,7 @@ import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
   title: "Neothink Command | Neothink+",
-  description: "Neothink Command represents the mastery of self-leadership—taking full command of your life, work, and destiny through integrated thinking.",
+  description: "The ecosystem of ventures, enterprises, and industries built by Neothink members—where individual mastery and collective movement create lasting economic value.",
   alternates: {
     canonical: "https://neothink.io/command",
   },
@@ -28,7 +28,7 @@ export default function CommandPage() {
                 Neothink Command
               </h1>
               <p className="mx-auto max-w-2xl text-lg leading-relaxed text-white/70 sm:text-xl lg:text-2xl">
-                The mastery of self-leadership—taking full command of your life, work, and destiny through integrated thinking.
+                The ecosystem of ventures, enterprises, and industries—where value creation becomes economic reality.
               </p>
             </div>
           </div>
@@ -41,18 +41,44 @@ export default function CommandPage() {
               <div className="prose prose-lg prose-invert mx-auto">
                 <h2 className="font-serif text-2xl font-bold text-white sm:text-3xl">What is Command?</h2>
                 <p className="text-white/70">
-                  Neothink Command is the state of complete self-leadership. It&apos;s not about commanding others—it&apos;s about taking command of yourself. Your mind. Your work. Your direction. Your destiny.
+                  Neothink Command is the economic expression of everything we build. While Fellowship develops individuals and Movement builds collective structures, Command is where value creation becomes tangible—an ecosystem of ventures, enterprises, and industries created by and for integrated thinkers.
                 </p>
                 <p className="text-white/70">
-                  Most people drift through life reacting to circumstances, following others&apos; agendas, hoping things work out. Someone in Command has eliminated this passive approach. They&apos;ve become the captain of their ship—setting the course, adjusting for conditions, and reaching destinations of their own choosing.
+                  This isn&apos;t about traditional business for its own sake. Command represents the economic engine that funds our Movement and rewards our Fellowship members for their growth and contributions.
                 </p>
-                <h2 className="mt-12 font-serif text-2xl font-bold text-white sm:text-3xl">Command Attributes</h2>
-                <ul className="space-y-3 text-white/70">
-                  <li><strong className="text-white">Self-Authority</strong> — You are the final decision-maker in your life</li>
-                  <li><strong className="text-white">Directional Clarity</strong> — You know where you&apos;re going and why</li>
-                  <li><strong className="text-white">Execution Power</strong> — You convert decisions into reality</li>
-                  <li><strong className="text-white">Adaptive Mastery</strong> — You adjust to conditions without losing course</li>
-                </ul>
+
+                <h2 className="mt-12 font-serif text-2xl font-bold text-white sm:text-3xl">The Three Layers</h2>
+
+                <div className="mt-6 space-y-8">
+                  <div className="rounded-lg border border-white/10 bg-white/5 p-6">
+                    <h3 className="font-serif text-xl font-bold text-primary">Ventures</h3>
+                    <p className="mt-2 text-sm uppercase tracking-wider text-white/40">Early-Stage Value Creation</p>
+                    <p className="mt-3 text-white/70">
+                      New ideas becoming reality. Ventures are the startups and projects launched by Fellowship members—experiments in value creation backed by the knowledge and network of the Neothink ecosystem. Some will grow, some will pivot, all will teach.
+                    </p>
+                  </div>
+
+                  <div className="rounded-lg border border-white/10 bg-white/5 p-6">
+                    <h3 className="font-serif text-xl font-bold text-primary">Enterprises</h3>
+                    <p className="mt-2 text-sm uppercase tracking-wider text-white/40">Scaled Value Creation</p>
+                    <p className="mt-3 text-white/70">
+                      Proven ventures that have found their market. Enterprises are established businesses with sustainable revenue, growing teams, and meaningful impact. They provide employment, opportunity, and resources for the broader Movement.
+                    </p>
+                  </div>
+
+                  <div className="rounded-lg border border-white/10 bg-white/5 p-6">
+                    <h3 className="font-serif text-xl font-bold text-primary">Industries</h3>
+                    <p className="mt-2 text-sm uppercase tracking-wider text-white/40">Systemic Value Creation</p>
+                    <p className="mt-3 text-white/70">
+                      Entire sectors shaped by Neothink enterprises. When enough ventures become enterprises in related domains, they form industries—complete ecosystems of value creation that can rival or replace existing structures. This is where real transformation happens.
+                    </p>
+                  </div>
+                </div>
+
+                <h2 className="mt-12 font-serif text-2xl font-bold text-white sm:text-3xl">How It Connects</h2>
+                <p className="text-white/70">
+                  Command doesn&apos;t exist in isolation. Fellowship members start ventures. Movement communities support enterprises. Industries fund the growth of both. It&apos;s a self-reinforcing cycle: better people build better businesses, better businesses fund better development, better development creates better people.
+                </p>
               </div>
 
               <div className="mt-16 text-center">

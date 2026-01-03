@@ -5,7 +5,7 @@ import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
   title: "Neothink Movement | Neothink+",
-  description: "The Neothink Movement represents the collective force of integrated thinkers working to advance human consciousness and civilization.",
+  description: "Progress as a collective through the Neothink Movement—from Company to Community to Country, evolving from startup society to network union to network archipelago to network state.",
   alternates: {
     canonical: "https://neothink.io/movement",
   },
@@ -28,7 +28,7 @@ export default function MovementPage() {
                 Neothink Movement
               </h1>
               <p className="mx-auto max-w-2xl text-lg leading-relaxed text-white/70 sm:text-xl lg:text-2xl">
-                The collective force of integrated thinkers advancing human consciousness, value creation, and civilization itself.
+                Our collective progression—from startup society to network state, building new structures for human flourishing.
               </p>
             </div>
           </div>
@@ -41,18 +41,39 @@ export default function MovementPage() {
               <div className="prose prose-lg prose-invert mx-auto">
                 <h2 className="font-serif text-2xl font-bold text-white sm:text-3xl">What is the Movement?</h2>
                 <p className="text-white/70">
-                  The Neothink Movement is the dynamic expression of integrated thinkers in action. While the Revolution represents the internal shift and the Fellowship represents the community, the Movement represents the external impact—the actual advancement of human potential and civilization.
+                  The Neothink Movement is our path of collective progression. While Fellowship tracks your individual growth from member to master, Movement tracks our shared evolution from a small group of value creators into something far more significant—a new kind of society.
                 </p>
                 <p className="text-white/70">
-                  Every civilization-advancing breakthrough in history came from individuals who thought integratively—who could see connections others missed and create values others couldn&apos;t imagine. The Movement channels this capability toward the challenges and opportunities of our time.
+                  This isn&apos;t about politics or ideology. It&apos;s about building real structures that support prosperity, happiness, and longevity for integrated thinkers worldwide.
                 </p>
-                <h2 className="mt-12 font-serif text-2xl font-bold text-white sm:text-3xl">Movement Principles</h2>
-                <ul className="space-y-3 text-white/70">
-                  <li><strong className="text-white">Action Over Theory</strong> — Ideas matter, but creation matters more</li>
-                  <li><strong className="text-white">Individual Sovereignty</strong> — Each person owns their life and choices</li>
-                  <li><strong className="text-white">Value-Based Progress</strong> — Advancement through creation, not destruction</li>
-                  <li><strong className="text-white">Long-Term Vision</strong> — Building for generations, not just quarters</li>
-                </ul>
+
+                <h2 className="mt-12 font-serif text-2xl font-bold text-white sm:text-3xl">The Three Stages</h2>
+
+                <div className="mt-6 space-y-8">
+                  <div className="rounded-lg border border-white/10 bg-white/5 p-6">
+                    <h3 className="font-serif text-xl font-bold text-primary">Company</h3>
+                    <p className="mt-2 text-sm uppercase tracking-wider text-white/40">Startup Society → Network Union</p>
+                    <p className="mt-3 text-white/70">
+                      Our foundation. We begin as a startup society—a small group united by shared principles and purpose. Through collaboration and value creation, we grow into a network union: a connected web of individuals and ventures working toward common goals.
+                    </p>
+                  </div>
+
+                  <div className="rounded-lg border border-white/10 bg-white/5 p-6">
+                    <h3 className="font-serif text-xl font-bold text-primary">Community</h3>
+                    <p className="mt-2 text-sm uppercase tracking-wider text-white/40">Network Union → Network Archipelago</p>
+                    <p className="mt-3 text-white/70">
+                      Our expansion. The network union grows into a network archipelago—multiple interconnected communities across geographies, each with its own character but all sharing the Neothink foundation. We develop shared resources, governance, and identity.
+                    </p>
+                  </div>
+
+                  <div className="rounded-lg border border-white/10 bg-white/5 p-6">
+                    <h3 className="font-serif text-xl font-bold text-primary">Country</h3>
+                    <p className="mt-2 text-sm uppercase tracking-wider text-white/40">Network Archipelago → Network State</p>
+                    <p className="mt-3 text-white/70">
+                      Our destination. The network archipelago consolidates into a network state—a recognized entity with its own territory, governance, and international standing. A new kind of country built by and for integrated thinkers and value creators.
+                    </p>
+                  </div>
+                </div>
               </div>
 
               <div className="mt-16 text-center">
