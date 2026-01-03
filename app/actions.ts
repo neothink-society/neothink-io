@@ -2,7 +2,11 @@
 
 import { Resend } from "resend"
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+// Lazy initialization to avoid errors when API key is not configured
+function getResend() {
+  if (!process.env.RESEND_API_KEY) return null
+  return new Resend(process.env.RESEND_API_KEY)
+}
 
 // Validation helpers
 function validateEmail(email: string): boolean {
@@ -43,7 +47,8 @@ export async function submitContactForm(formData: FormData): Promise<FormResult>
   }
 
   // Check if Resend is configured
-  if (!process.env.RESEND_API_KEY) {
+  const resend = getResend()
+  if (!resend) {
     console.log("[DEV] Contact form submission (no RESEND_API_KEY):", { name, email, phone, message })
     return { success: true } // Allow in development
   }
@@ -108,7 +113,8 @@ export async function submitPathInterest(formData: FormData): Promise<FormResult
   const recipientEmail = pathEmails[path] || pathEmail || "admin@neothink.io"
 
   // Check if Resend is configured
-  if (!process.env.RESEND_API_KEY) {
+  const resend = getResend()
+  if (!resend) {
     console.log(`[DEV] Path interest submission to ${recipientEmail}:`, { name, email, phone, message, path })
     return { success: true } // Allow in development
   }

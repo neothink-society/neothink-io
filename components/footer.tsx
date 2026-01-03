@@ -8,13 +8,6 @@ export function Footer() {
     { prefix: "The Lucky", name: "Superachiever", color: "text-yellow-400 hover:text-yellow-300", href: "/blog/the-superachiever-path" },
   ]
 
-  const generalPaths = [
-    { prefix: "Neothink", name: "Revolution", href: "#" },
-    { prefix: "Neothink", name: "Fellowship", href: "#" },
-    { prefix: "Neothink", name: "Movement", href: "#" },
-    { prefix: "Neothink", name: "Command", href: "#" },
-  ]
-
   const explore = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
@@ -70,13 +63,13 @@ export function Footer() {
           </div>
 
           {/* Navigation columns */}
-          <div className="grid grid-cols-2 gap-8 sm:grid-cols-4 lg:col-span-8 lg:gap-6">
+          <div className="grid grid-cols-2 gap-8 lg:col-span-8 lg:gap-6">
 
             {/* Explore column */}
             <div>
-              <h4 id="footer-explore" className="text-xs font-semibold uppercase tracking-wider text-white/40 sm:text-sm">
+              <p id="footer-explore" className="text-xs font-semibold uppercase tracking-wider text-white/40 sm:text-sm">
                 Explore
-              </h4>
+              </p>
               <ul aria-labelledby="footer-explore" className="mt-4 space-y-3">
                 {explore.map((item) => (
                   <li key={item.name}>
@@ -92,31 +85,11 @@ export function Footer() {
               </ul>
             </div>
 
-            {/* General Paths column */}
-            <div>
-              <h4 id="footer-general-paths" className="text-xs font-semibold uppercase tracking-wider text-white/40 sm:text-sm">
-                General Paths
-              </h4>
-              <ul aria-labelledby="footer-general-paths" className="mt-4 space-y-3">
-                {generalPaths.map((path) => (
-                  <li key={path.name}>
-                    <Link
-                      href={path.href}
-                      className="group inline-flex items-center text-sm text-white/70 transition-colors duration-200 hover:text-primary"
-                    >
-                      <span className="mr-2 h-px w-0 bg-primary transition-all duration-200 group-hover:w-3" />
-                      {path.prefix} <span className="ml-1 font-semibold">{path.name}</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
             {/* Special Paths column */}
             <div>
-              <h4 id="footer-special-paths" className="text-xs font-semibold uppercase tracking-wider text-white/40 sm:text-sm">
+              <p id="footer-special-paths" className="text-xs font-semibold uppercase tracking-wider text-white/40 sm:text-sm">
                 Special Paths
-              </h4>
+              </p>
               <ul aria-labelledby="footer-special-paths" className="mt-4 space-y-3">
                 {specialPaths.map((path) => (
                   <li key={path.name}>

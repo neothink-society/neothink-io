@@ -71,7 +71,8 @@ export function ContactForm() {
     e.preventDefault()
     setErrors({})
 
-    const formData = new FormData(e.currentTarget)
+    const form = e.currentTarget
+    const formData = new FormData(form)
     const name = formData.get("name") as string
     const email = formData.get("email") as string
     const phone = formData.get("phone") as string
@@ -94,7 +95,7 @@ export function ContactForm() {
 
     if (result.success) {
       setIsSuccess(true)
-      e.currentTarget.reset()
+      form.reset()
       setTimeout(() => setIsSuccess(false), 5000)
     } else if (result.error) {
       setErrors({ server: result.error })
