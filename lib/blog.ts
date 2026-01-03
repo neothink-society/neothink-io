@@ -123,7 +123,7 @@ This isn't motivation. This isn't inspiration. This is a system.
 
 **The question isn't whether it works.** The question is whether you're ready to get off the train.
     `,
-    date: "2026-01-01",
+    date: "2026-01-01T12:00:00",
     author: "Neothink+",
     category: "Ascenders",
     readTime: "7 min read",
@@ -234,7 +234,7 @@ This isn't about becoming someone new. It's about becoming who you always wereâ€
 
 **The happiness you've been searching for isn't ahead of you. It's inside you.** Waiting to be integrated.
     `,
-    date: "2026-01-01",
+    date: "2026-01-01T12:00:00",
     author: "Neothink+",
     category: "Neothinkers",
     readTime: "7 min read",
@@ -358,7 +358,7 @@ Through the Immortal path, you access all three parts of the cure:
 
 That's where it starts.
     `,
-    date: "2026-01-01",
+    date: "2026-01-01T12:00:00",
     author: "Neothink+",
     category: "Immortals",
     readTime: "8 min read",
@@ -542,7 +542,7 @@ None of these function effectively in isolation. They form an ecosystem of capab
 
 The only question is: are you ready to become the Technician of your own life?
     `,
-    date: "2026-01-01",
+    date: "2026-01-01T12:00:00",
     author: "Neothink+",
     category: "Superachievers",
     readTime: "12 min read",
