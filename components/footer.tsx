@@ -9,10 +9,10 @@ export function Footer() {
   ]
 
   const generalPaths = [
-    { name: "Revolution", href: "/revolution" },
-    { name: "Fellowship", href: "/fellowship" },
-    { name: "Movement", href: "/movement" },
-    { name: "Command", href: "/command" },
+    { prefix: "Neothink", name: "Revolution", href: "/revolution" },
+    { prefix: "Neothink", name: "Fellowship", href: "/fellowship" },
+    { prefix: "Neothink", name: "Movement", href: "/movement" },
+    { prefix: "Neothink", name: "Command", href: "/command" },
   ]
 
   const explore = [
@@ -105,7 +105,7 @@ export function Footer() {
                       className="group inline-flex items-center text-sm text-white/70 transition-colors duration-200 hover:text-white"
                     >
                       <span className="mr-2 h-px w-0 bg-primary transition-all duration-200 group-hover:w-3" />
-                      {path.name}
+                      {path.prefix} <span className="ml-1 font-semibold">{path.name}</span>
                     </Link>
                   </li>
                 ))}
